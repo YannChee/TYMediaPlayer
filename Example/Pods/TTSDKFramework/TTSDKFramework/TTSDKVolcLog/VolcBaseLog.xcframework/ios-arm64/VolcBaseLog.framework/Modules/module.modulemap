@@ -1,0 +1,6 @@
+framework module VolcBaseLog {
+  umbrella header "volc_base_log.h"
+
+  export *
+  module * { export * }
+}

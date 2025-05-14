@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import TYMediaPlayer
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        TYPlayer.initPlayerSDK(appID: "123", licenseFileName: "abc")
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,5 @@
+framework module TTSDKTopSignature {
+  umbrella header "TTSDKTopSignature.h"
+  export *
+  module * { export * }
+}

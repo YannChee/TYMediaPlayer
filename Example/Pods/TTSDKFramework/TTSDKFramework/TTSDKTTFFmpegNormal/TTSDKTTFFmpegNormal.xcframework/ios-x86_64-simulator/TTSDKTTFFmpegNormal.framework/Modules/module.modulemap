@@ -1,0 +1,5 @@
+framework module TTSDKTTFFmpegNormal {
+  umbrella header "TTSDKTTFFmpegNormal.h"
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+framework module TTSDKCore {
+  umbrella header "TTSDKCore.h"
+  export *
+  module * { export * }
+}

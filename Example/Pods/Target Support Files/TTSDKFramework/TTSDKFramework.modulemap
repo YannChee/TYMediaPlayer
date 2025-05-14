@@ -1,0 +1,6 @@
+framework module TTSDKFramework {
+  umbrella header "TTSDKFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+framework module TTSDKHttpDNS {
+  umbrella header "TTSDKHttpDNS.h"
+  export *
+  module * { export * }
+}

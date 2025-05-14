@@ -7,31 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02109BF899F199A9FFD5572B /* Pods_TYMediaPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782CFC2B3FAEC4AC9D0D3788 /* Pods_TYMediaPlayer_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9C60F6A6C0990B95823925F2 /* Pods_TYMediaPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89128B727AAF219D23C60EDE /* Pods_TYMediaPlayer_Example.framework */; };
+		6C3639BA7634DE1D1E03C761 /* Pods_TYMediaPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89584D1083423855395CD10 /* Pods_TYMediaPlayer_Example.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = TYMediaPlayer;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0EF1D27CB997309BB45001D9 /* Pods-TYMediaPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYMediaPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYMediaPlayer_Tests/Pods-TYMediaPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		389FADFE5B5BFBF64EFD4427 /* Pods-TYMediaPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYMediaPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		56D1C4D6571282DC5B2C092E /* Pods-TYMediaPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYMediaPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYMediaPlayer_Tests/Pods-TYMediaPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5865833C770D819D823783A3 /* TYMediaPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYMediaPlayer.podspec; path = ../TYMediaPlayer.podspec; sourceTree = "<group>"; };
+		1444158EA11F39FCA1E11829 /* Pods-TYMediaPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYMediaPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5865833C770D819D823783A3 /* TYMediaPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYMediaPlayer.podspec; path = ../TYMediaPlayer.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TYMediaPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYMediaPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +25,10 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* TYMediaPlayer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYMediaPlayer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		782CFC2B3FAEC4AC9D0D3788 /* Pods_TYMediaPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYMediaPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89128B727AAF219D23C60EDE /* Pods_TYMediaPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYMediaPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B779FE8701B45840FDB1B21D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BD1C6311DC554EAE5241DD48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E25B0436962BE3B700AEDEC0 /* Pods-TYMediaPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYMediaPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B779FE8701B45840FDB1B21D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD1C6311DC554EAE5241DD48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F11D591AF16C39C7AB896E44 /* Pods-TYMediaPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYMediaPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F89584D1083423855395CD10 /* Pods_TYMediaPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYMediaPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,30 +36,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C60F6A6C0990B95823925F2 /* Pods_TYMediaPlayer_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02109BF899F199A9FFD5572B /* Pods_TYMediaPlayer_Tests.framework in Frameworks */,
+				6C3639BA7634DE1D1E03C761 /* Pods_TYMediaPlayer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D15AD3E89C8EC3C2E5B973D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F89584D1083423855395CD10 /* Pods_TYMediaPlayer_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B00FB57BC2AE1A9E58ABE11 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E25B0436962BE3B700AEDEC0 /* Pods-TYMediaPlayer_Example.debug.xcconfig */,
-				389FADFE5B5BFBF64EFD4427 /* Pods-TYMediaPlayer_Example.release.xcconfig */,
-				56D1C4D6571282DC5B2C092E /* Pods-TYMediaPlayer_Tests.debug.xcconfig */,
-				0EF1D27CB997309BB45001D9 /* Pods-TYMediaPlayer_Tests.release.xcconfig */,
+				1444158EA11F39FCA1E11829 /* Pods-TYMediaPlayer_Example.debug.xcconfig */,
+				F11D591AF16C39C7AB896E44 /* Pods-TYMediaPlayer_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,10 +65,9 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TYMediaPlayer */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				5B00FB57BC2AE1A9E58ABE11 /* Pods */,
-				B914F0324E484F4CF617EEAE /* Frameworks */,
+				1D15AD3E89C8EC3C2E5B973D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* TYMediaPlayer_Example.app */,
-				607FACE51AFB9204008FA782 /* TYMediaPlayer_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,23 +101,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,15 +111,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B914F0324E484F4CF617EEAE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				89128B727AAF219D23C60EDE /* Pods_TYMediaPlayer_Example.framework */,
-				782CFC2B3FAEC4AC9D0D3788 /* Pods_TYMediaPlayer_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,11 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TYMediaPlayer_Example" */;
 			buildPhases = (
-				DDA374F2DBE7751AE4D973B4 /* [CP] Check Pods Manifest.lock */,
+				3C74981D7203CE20EDF43DF2 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4232936CFEA2D7A5D6F2A2AE /* [CP] Embed Pods Frameworks */,
+				F88F95C961F2FBA08F942162 /* [CP] Embed Pods Frameworks */,
+				BCFB694E96CC0EEFBEA42E0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,25 +133,6 @@
 			productName = TYMediaPlayer;
 			productReference = 607FACD01AFB9204008FA782 /* TYMediaPlayer_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		607FACE41AFB9204008FA782 /* TYMediaPlayer_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TYMediaPlayer_Tests" */;
-			buildPhases = (
-				5E65733B5103C63A343400E7 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = TYMediaPlayer_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* TYMediaPlayer_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -213,12 +146,8 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P73VHT34J2;
 						LastSwiftMigration = 0900;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -227,6 +156,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,7 +166,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* TYMediaPlayer_Example */,
-				607FACE41AFB9204008FA782 /* TYMediaPlayer_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,57 +181,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4232936CFEA2D7A5D6F2A2AE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TYMediaPlayer/TYMediaPlayer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYMediaPlayer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5E65733B5103C63A343400E7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TYMediaPlayer_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDA374F2DBE7751AE4D973B4 /* [CP] Check Pods Manifest.lock */ = {
+		3C74981D7203CE20EDF43DF2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,6 +206,74 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BCFB694E96CC0EEFBEA42E0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RangersAppLog/RangersAppLog.bundle",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKPlayerCoreNormal/Resources/processor.metallib",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKPlayerCoreNormal/Resources/ttplayer.metallib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RangersAppLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/processor.metallib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ttplayer.metallib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88F95C961F2FBA08F942162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Core/TTSDKCore.framework/TTSDKCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/HttpDNS/TTSDKHttpDNS.framework/TTSDKHttpDNS",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Player/TTSDKPlayer.framework/TTSDKPlayer",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/PlayerCore/Normal/TTSDKPlayerCoreNormal.framework/TTSDKPlayerCoreNormal",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Reachability/TTSDKReachability.framework/TTSDKReachability",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/SSL/ttboringssl.framework/ttboringssl",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/SSL/ttcrypto.framework/ttcrypto",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/TTFFmpeg/Normal/TTFFmpeg.framework/TTFFmpeg",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/TTFFmpeg/Normal/TTSDKTTFFmpegNormal.framework/TTSDKTTFFmpegNormal",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Tools/TTSDKTools.framework/TTSDKTools",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/TopSignature/TTSDKTopSignature.framework/TTSDKTopSignature",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VCN/libvcn.framework/libvcn",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VCN/TTSDKVCN.framework/TTSDKVCN",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VolcLog/TTSDKVolcLog.framework/TTSDKVolcLog",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VolcLog/VolcBaseLog.framework/VolcBaseLog",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKHttpDNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKPlayerCoreNormal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ttboringssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ttcrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTFFmpeg.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKTTFFmpegNormal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKTopSignature.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libvcn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKVCN.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKVolcLog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VolcBaseLog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -336,23 +286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* TYMediaPlayer_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -475,71 +409,45 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E25B0436962BE3B700AEDEC0 /* Pods-TYMediaPlayer_Example.debug.xcconfig */;
+			baseConfigurationReference = 1444158EA11F39FCA1E11829 /* Pods-TYMediaPlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P73VHT34J2;
 				INFOPLIST_FILE = TYMediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 389FADFE5B5BFBF64EFD4427 /* Pods-TYMediaPlayer_Example.release.xcconfig */;
+			baseConfigurationReference = F11D591AF16C39C7AB896E44 /* Pods-TYMediaPlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P73VHT34J2;
 				INFOPLIST_FILE = TYMediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56D1C4D6571282DC5B2C092E /* Pods-TYMediaPlayer_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYMediaPlayer_Example.app/TYMediaPlayer_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EF1D27CB997309BB45001D9 /* Pods-TYMediaPlayer_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYMediaPlayer_Example.app/TYMediaPlayer_Example";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -560,15 +468,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TYMediaPlayer_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

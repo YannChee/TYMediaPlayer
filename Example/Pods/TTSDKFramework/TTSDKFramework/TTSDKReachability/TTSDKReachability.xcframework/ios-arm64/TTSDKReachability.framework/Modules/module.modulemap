@@ -1,0 +1,5 @@
+framework module TTSDKReachability {
+  umbrella header "TTSDKReachability.h"
+  export *
+  module * { export * }
+}

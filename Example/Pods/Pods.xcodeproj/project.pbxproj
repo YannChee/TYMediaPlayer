@@ -1,0 +1,2126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F18D354A11B202BA7895258D6436BC /* TYPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04D509945570642DE10F87BCB6F386 /* TYPlayerModel.swift */; };
+		038ED878E11E2064721150E34F95DFF0 /* TTVideoEnginePublicProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E36CEDBC4EDC07D833C30887528A53A5 /* TTVideoEnginePublicProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0391EA0839F1FA88FD24ACF518E04C4F /* TTVideoEnginePlayerDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE9209899420F3C5C84C91E009F3B6A /* TTVideoEnginePlayerDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03B72DCE2685F0E449B40DF6B59966DB /* TTVideoEngine+VR.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C254CDB0B4115BFF0D7E683EEE74F5 /* TTVideoEngine+VR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		042EDD48B8FBCAD95576F4F716CDFFA6 /* IVCABRPlayStateSupplier.h in Headers */ = {isa = PBXBuildFile; fileRef = B9567D9FE0910AE6DAADB3483A568BCA /* IVCABRPlayStateSupplier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05FD45AE6BAC8A76CBDDB25E0800BDC3 /* TTVideoEngineVidSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F2012E7573BA37106D5634C8A6D8D8 /* TTVideoEngineVidSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076922FDB74593E1BAE62DBE1D53A73C /* TTVideoEngineDebugTools.h in Headers */ = {isa = PBXBuildFile; fileRef = AE08AC61DED848B3C2603BDD35DD1423 /* TTVideoEngineDebugTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F3F23ECD444584F0D5099FBB1FC0D9 /* TTStreamInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB3D02070185C931591BE56785D05A5 /* TTStreamInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F62BE12F0B268842B9A7C1AD21A3C0 /* IVCABRInfoListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 159D81202D8042E044A26E28B4A21BC2 /* IVCABRInfoListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10186A5EBE5B07A276D1BBF336642D89 /* TYMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C737F94910C2A8426B723AAD5CBC533 /* TYMediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		101E1DC13B91F10FDAC69EC8729F06DB /* VCABRDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E6AD79AD30A38326F9A7562A682A5C /* VCABRDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1190014B804A7FDFC7A5B5DB72607E84 /* TTVideoEngineAVPlayerItemAccessLog.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFFB3B0837A505864A4830664F857EB /* TTVideoEngineAVPlayerItemAccessLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F65D14301B6B23870DB1F441F5FE49 /* FPPlayerMediaPlayback.h in Headers */ = {isa = PBXBuildFile; fileRef = 865492D3A21CDB4D1F66E34E8CBB0306 /* FPPlayerMediaPlayback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127EF84D4ACDE45421DCA632AFF02450 /* TTVideoEngine+AIBarrage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D853D46A8D5D1F43646820756291B7B /* TTVideoEngine+AIBarrage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13664ED143A13B93E839EC013CD292B0 /* VCABRResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BA944932758D2AF32C05E2394EF8BF /* VCABRResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		152EDA87BB787481BC28B6F896A6578E /* TTVideoEngineModelDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A70BCD0EC58C5DB8FFF2025F9EC5DB3 /* TTVideoEngineModelDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15A507C29DB5DD2276B76538A3BA4453 /* TTAVPreloaderItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C3E271148F4D417B2EFBCC55D80BD8 /* TTAVPreloaderItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17224F94EC59D1432C5EB97CB49B2E46 /* TTVideoEngine+ConfigCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B0B88C62714D4A24903A2F6142A07E /* TTVideoEngine+ConfigCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		174EB4C45A1C2069D875D9FE3A8D2F57 /* BDCommonEnumDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A285E1B8D0CDAE4F8A4D724B6BB04B /* BDCommonEnumDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188C1DD370FDDDBB36DB50D5B721B254 /* TYSDKPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC56B4CF247590237FB1B9BDA131F /* TYSDKPlayerManager.swift */; };
+		1CA5FAA5B1B3B0CFEAF337BF06F00CE4 /* h5bridge-wkwebview.js in Resources */ = {isa = PBXBuildFile; fileRef = BA7D3E944F466E9A3CE6F6389067C719 /* h5bridge-wkwebview.js */; };
+		1DBD89D4DDA7962D9E463EEE89F87081 /* VCABRBufferInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D540B4B4C2871A0914BAC4E3578BD0E /* VCABRBufferInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D452A049F23AFFF60864AC828A902F /* TTVideoEngineAuthTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 26878E02DA9A66AC04FFBC3A6EDBE642 /* TTVideoEngineAuthTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224E05F12E754A2270E4655E77C71E3C /* BDAutoTrackConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 711A8F922674322F4C9980DA51DC24B6 /* BDAutoTrackConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244FAE99A890AD4E25FFF7A74422796F /* BDAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0F8390414531747AB4B1F3CC91C262 /* BDAutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264168B7BE5C195735921D62161B3699 /* TTSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DDF454451D6CA87DE1EB593B6085C0 /* TTSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DD3A736CECA19FA91E65099A2A86C6 /* BDAutoTrackAlinkRouting.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AE32802560068ABD62DA3AEB5A3781 /* BDAutoTrackAlinkRouting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		286FD1A36C3DCA492C5C60A1A6EE2262 /* IVCNetworkSpeedPredictor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA1024F1F2D081E4458AC439E825C81 /* IVCNetworkSpeedPredictor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2989C7CF90F5ABC0A059564A733D020D /* TYPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D706A49D8F92792C19EBC5E0E7959 /* TYPlayer.swift */; };
+		29BACBD51B47A204B9DCC431FEB29C99 /* TTVideoEngineKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F7D79AEE2BFD9B9DC195BCD0FE0069 /* TTVideoEngineKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2A0DD95800AB6CD61DD9F7C08107FB /* VCABRResultElement.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBC944A1A2D8DD3D1B3E4232D5BF519 /* VCABRResultElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305C3DC25302EE7863378D18542E72D9 /* TTVideoEngine+AutoRes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2276879F6DADDC49FAA5BF683F092214 /* TTVideoEngine+AutoRes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F5BC7C9CC2D5ABF410CE24BF018AB1 /* TTVideoEngine+Video.h in Headers */ = {isa = PBXBuildFile; fileRef = 4435D70C4203DA136279B26A0B8F2F0E /* TTVideoEngine+Video.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A70555F3191189B34981E9EAFA33AD9 /* TTVideoEngineInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5BEF7289B1E8856F5900BC8A60C01C /* TTVideoEngineInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ABA2A8734361C976C0D490B0E549719 /* TTSDKPlayerCoreNormal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E94EE92FA3B6CD61CAC50D73F6936AE /* TTSDKPlayerCoreNormal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE5C08CE0063F5C01C724FEF0FF3D95 /* TTVideoEngineModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 685ADF70FDB4F4EDDC35BC22AF620FCA /* TTVideoEngineModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE2F90E5525938DEA7FC1544A741114 /* FPPlayerViewDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E526E13294909728F8EB8996E374E537 /* FPPlayerViewDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CFF1407982991169F2D016BF8C76D44 /* TTVideoEngineSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = FC44FFB08201A85EBA9A7EB26629AC5D /* TTVideoEngineSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E68C663005B2E79CD207A2FD8A5D306 /* TTVideoEngineEnvConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C00AA3CB6D12FEAC3B0E6DD2CD947EF2 /* TTVideoEngineEnvConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40868113F18B60CC326778BC62E99393 /* TTVideoEngineNetworkPortraitData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFD9C3050791221E85C98A0F097D3DF /* TTVideoEngineNetworkPortraitData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40E40C3D84D9F3C17B2E1A7DCD0815FA /* VodSettingsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = E60EBE9FE84EF99CDEB3A5F25D12E412 /* VodSettingsStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411A7E4D96B069C5FDFFD684A7F09226 /* TTVideoEngineBufferProcessResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1511664DEAAF49ADFA586AF14F8C64 /* TTVideoEngineBufferProcessResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B9F76EA3A6198D96533768C4C6CC21 /* RangersAppLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC54E41BC2CE529BD46D2CC1CA4B9EB /* RangersAppLog-dummy.m */; };
+		4253AA4980504E34D97C74A30D7DF45D /* TTAVTraitObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F94FA04D82ED2D2BEA437D4B9AB76331 /* TTAVTraitObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FE27276386C7C09723CFBC5D19396E /* Pods-TYMediaPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991FC7DA395CE9DFD2D515A6629C258 /* Pods-TYMediaPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46932C244AB2A79A6B6210B47574496C /* IVCABRModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EB56BE01C63E4CC75277D2191DB875 /* IVCABRModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D99ED85D8F3C02494A21AB23096602 /* TTAVPlayerMaskInfoInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 821F9F065BF85CA984AB193A6B292F18 /* TTAVPlayerMaskInfoInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E3413542E5BAAC7394BA1EA33B850C /* TTVideoEngine+AsyncInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC2855E8143509C6944EED1B7C7B4F9 /* TTVideoEngine+AsyncInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F80D0C33D594894125FA5060815093 /* TTVideoEngineStrategyDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BC39F606FA1F9013F0C7412590E516DB /* TTVideoEngineStrategyDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		480CD29E8B31105C5D13A2D5F6E5AADF /* BDAutoTrack+LaunchFrom.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FD13FF286C4AE1B1B0D69E7A571B86 /* BDAutoTrack+LaunchFrom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48EA2F5EF7A383F8261B5B02A027BBC9 /* TTVideoEngineHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8139DD6512BE213A85DE6585E55D1DB5 /* TTVideoEngineHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49350875C75788F16944B93D78873434 /* TTVideoEngineConfigItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CD63152BE27C14DA5AA515AFEE12C1C1 /* TTVideoEngineConfigItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF38EF345084F916BA827D90B9DB1EB /* TTVideoEngine+Mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F95A3D0E29065B486F5E1CF6E3DE19A /* TTVideoEngine+Mask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B43AC3EAF3DAB7E8C74DB617F684923 /* av_nativetrait.h in Headers */ = {isa = PBXBuildFile; fileRef = DA32F07E1B2E9B2BAB3E4658A1BF708C /* av_nativetrait.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC83C08FE8DEFA53D6C96030B7A22F6 /* TTVideoEngineAVPlayerItemAccessLogEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B71373A54C07A1417A5B67901E46EDE /* TTVideoEngineAVPlayerItemAccessLogEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DC40B1F585BC863C3F0A0B95321EA09 /* av_audio_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9936BB4FF94EF5177C8A07C9CA6D9E /* av_audio_wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E63339CF2880D6B8E993A46FB5DA825 /* TTVideoEngineConfigCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95175FFB7B6D2BD02F1B9B5CBED905F2 /* TTVideoEngineConfigCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E7E8C4A827820B95E2F4478CB0322F6 /* TYMediaPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D8CFB044B498D056B8F13444676BED /* TYMediaPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		520575B621EC3239DA02C131AEEF16F3 /* TTVideoEngineUrlSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 28419A607D61F801B316FA45AA7EAF19 /* TTVideoEngineUrlSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F95C384835ABDEF23AF0991AD15B0B /* IVCABRModuleSpeedRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 435335EE5A191F383E5D2E51BD215881 /* IVCABRModuleSpeedRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5406901CC453CD532F92B99C3B620BF5 /* TTVideoEngineSmartUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 744A4545745B09E3E167B99137CA1A10 /* TTVideoEngineSmartUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		547B4686341FA4C0224250DCE8732C3E /* FPPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D614B92852FEDEF410ABAFD3D918BE01 /* FPPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58776B78D286A9D61DF97F32BCA67EE2 /* TYPlayerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E9D82DB23F9821DEA3FFE8A03894A /* TYPlayerTool.swift */; };
+		5A43AC3C7111161EA38906A6A31D856A /* BDAutoTrackNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1C57007E256F252D2DCF22A93B6795 /* BDAutoTrackNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BB2070344A2591D192FF18C040B8EC9 /* TTSDKFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6110F128255BEF374E7820EFF36C90C8 /* TTSDKFramework-dummy.m */; };
+		5D874D61CE6A656176080A8D9F9EFADE /* TTVideoEngineSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A14EBA9B7BFAADD987A2D01099540A /* TTVideoEngineSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4465732E8F492EAA775A0FBC53C71D /* IVCABRStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 772DA5E3F2B49ADEFEF0002135BA123A /* IVCABRStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FFCFE95289A871B33D57B1AA0138A33 /* TTVideoEngineStrategyABRConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D49B215A2F08883AC5B1E878601CB35 /* TTVideoEngineStrategyABRConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F3AD893C64159271803E242EDCB448 /* TTAVPlayerLoadControlInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C80486CB3A410163100849FC94FA607 /* TTAVPlayerLoadControlInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A537B7DBC63129BCCD3CAF07296689 /* RangersAppLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5552DBA93CE65C90CDA7C4F7B2F46B65 /* RangersAppLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6392C4915065436A42995738516A0460 /* TTVideoEngineNetworkPredictorReaction.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6AE92E3291CFAED37833AC6734DE51 /* TTVideoEngineNetworkPredictorReaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C6327E310826AFD4919784055F7D17 /* TTVideoEngineStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1966BEEB5F224BBC01F953CC73E047 /* TTVideoEngineStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6575FA7605412B920F0BFD99BDC5E475 /* TTVideoEngineNetworkSpeedPredictorConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4965D00CF3E45F19A18BC9C4C88A374 /* TTVideoEngineNetworkSpeedPredictorConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672A12C8982BE4A55F7A1DC9A385F2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		68559AF7DDC302F6DB3E95CF5C05FE20 /* TTVideoEngineStrategyMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B6FC0ADBD27E9F7577F2434C323903 /* TTVideoEngineStrategyMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		692FD68384673BCB263AFA2B74C29102 /* BDAutoTrackEncryptionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D5155C94825ABF508A6DD95F90BBA5 /* BDAutoTrackEncryptionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFFB8213F5E54F4BAE1E1980998F65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		6B21AA402F2E889FEB703BD23D14587D /* TTVideoEngine+MasterPlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 5576D8335AEAD48FC0A98D34EECD461E /* TTVideoEngine+MasterPlaylist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB5676B5DE99169CDC2BC46E9A75909 /* TTPlayerDef.h in Headers */ = {isa = PBXBuildFile; fileRef = D3782EF76E2DAD7C08EB262322D92E3D /* TTPlayerDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2216CDD0CAC5465E1C438E9EBE5430 /* IVCABRDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 98041BC82D2D56E6DAB4D282652B6D23 /* IVCABRDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E81F3803D727A5E25D847CCC44A0C63 /* TTVideoEngineStrategyPreloadConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE66B10F81E19360C3E18832E146C3A /* TTVideoEngineStrategyPreloadConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F38931891C3F17F9C7DE967D7285A65 /* TTVideoEngineMaskInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 058D116902747A480F1DB5EE3B69F566 /* TTVideoEngineMaskInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F85D97DB76E635AA0C3D5C34A597A08 /* FPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D954D46CA6DFBD2D943493EEC29FDD /* FPPlayer.m */; };
+		7140C55980A504E5910622B0C111BEB4 /* TTVideoEngine+Tracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD357EDD862DC38835F43D93D2B993B /* TTVideoEngine+Tracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7187267B5AE219F71D956C2DC90CDB15 /* VodSettingsFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F8F266CC632A919A36E3D418EEDE13 /* VodSettingsFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7242C40C3E80DEBD29A4E521197C0C50 /* TTVideoEngineInfoFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF9FA76A57E487E82156E84AFDAB680 /* TTVideoEngineInfoFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74723D91AD591BF4AEE2CCB51CBA080B /* BDAutoTrack+Special.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C54D4CFBB97816B330BA34C6141647D /* BDAutoTrack+Special.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74EE8A9337FA052D533A0FA42580F6F9 /* TTSDKFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0C764122BB7E7D2577B9494C2843FA /* TTSDKFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A9B456641801C1BBC77028C7433F60 /* VCABRVideoStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D24DF19279F96DAA0F0892FDE9E8CC8E /* VCABRVideoStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766DC8173B03F57343F56445E54F9B5B /* TTVideoEngine+MediaTrackInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1A246D9B0E3AA97712AA4C126E7C6D /* TTVideoEngine+MediaTrackInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783AE719595B6E06DECD3886751D854B /* TYMediaPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F35A1CCAAEC7905E77D26F326CF680 /* TYMediaPlayer-dummy.m */; };
+		784758A2D758EC55F4B196A9A37CE331 /* TTVideoEngineNetworkPredictorAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E754CC86F4D78ED75AB0AC3F5CAF34 /* TTVideoEngineNetworkPredictorAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A358FFA5ED203F1A0CC13A5B20C344A /* VodSettingsDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC05A0D893486B0F63EAAD7335F59BC /* VodSettingsDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE19C863AE45F4B275AE67EE043439E /* TTVideoEngineExtraInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 61089B019E903E692B793660288A31FF /* TTVideoEngineExtraInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E6F408614ABDCA9636EA29B90B7834 /* TTVideoEngine+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = D3BD430B4145AF4FF67721220A1EAE33 /* TTVideoEngine+Options.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823765F53D0180AA78DF78A18C1D3E40 /* Pods-TYMediaPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B34386D6CD8F1585A7F34C405F16CCD /* Pods-TYMediaPlayer_Example-dummy.m */; };
+		854FD24F998757F5BAEE05CED7E925B1 /* BDAutoTrack+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 709D41E3322B473D14B4AD55A2A17D7F /* BDAutoTrack+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87949A9DE17330A2B5082788E15CBE6B /* TTVideoEngineConfigCenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CAE2493E2668E8F204D1E76C1308ED /* TTVideoEngineConfigCenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899C0CEADF303C229B0F4DF30CB947DA /* VCABRAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 964F4514EFB87642EEA82CDF6E0505FA /* VCABRAudioStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D645C8BAEA323C2DDF166B763D78D63 /* BDAutoTrackEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2643FC01963739697544AEAED72325 /* BDAutoTrackEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EBF12C67F9D5EC2B1E0669E01438602 /* BDAutoTrackConfig+AppLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6161AAC6E6CBA37DBC85A3F6F01B37 /* BDAutoTrackConfig+AppLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90EAF31F61010EEE8E597D4E57495953 /* TTSDKFramework_Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7348B2197DF968D146A1BF1FEA5A2046 /* TTSDKFramework_Dummy.m */; };
+		95DC6DBB63825F00935C4901AB1DA621 /* VCABRConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C56694366D10DCECADF47CA841F808E2 /* VCABRConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D4D32B11FC03496EBCCE082299D906 /* TTVideoEngineFragment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3CDC4A90BAB53207BDE84F47AFE35B /* TTVideoEngineFragment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A923BE2BFD309E58AE7C0CE55FE65E9 /* TTVideoEngineEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BA15D461175DB1A88CB4C884EC436A58 /* TTVideoEngineEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC4EFA8F768505968314B157461D4E2 /* TTVideoEngineDebugVideoInfoBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2C4F5A6FF809794D42428990D6E631 /* TTVideoEngineDebugVideoInfoBusiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E5C384F85BE497C18A1F8DC235927AD /* VodSettingsFetcherUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D79F9A32FEEE504F91A23C4241D73BB2 /* VodSettingsFetcherUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0E2CFC7D8E1F0923260B9214CDDEF2 /* TTVideoEngineMultiEncodingUrlSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 39652AE0564666C53AFEFFDC0D16C374 /* TTVideoEngineMultiEncodingUrlSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12DC2E5D199D0D86606D7DF21E24BCD /* TTVideoEngineDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD825F7DC6508C3C646503C7FF64730 /* TTVideoEngineDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A21BD333D6AD11113DFF0B4DFC3DA2FD /* TTSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FE836DB896A3ED03D9FD95038CA84062 /* TTSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45B6AFABC39FE72EB0148BDA3A12142 /* TTVideoEngine+Strategy.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B920949B9E90D5C99C96F0981DEE18 /* TTVideoEngine+Strategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F0D892DE036CBEB5409A48A7E3086B /* TTVideoEngineNetClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 143634E50CEAFCA6CB8E1FBF19C2B61F /* TTVideoEngineNetClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A69A755B1AFD74DE4FFC6C9B6F59F467 /* RangersAppLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AE51247AB22C455B20FAC7FF6E653 /* RangersAppLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A710184F4D441B1ABBC318C6A983B723 /* IVCABRBufferInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A65E8AA6AC025636A1AF5D09ADC6D23C /* IVCABRBufferInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A91C919441F051614BD63D2C9E6DDAAE /* VCStrategyMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 417D3548A83580F876314C8D57C61309 /* VCStrategyMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAECFA05EE7472A2BBC249E681E5C7A5 /* TTVideoEngineVRModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 83262EE647B8599E2406E201376D1510 /* TTVideoEngineVRModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB3F4757665655C0359AA35FFA0AD1F2 /* BDAutoTrackURLHostItemCN.h in Headers */ = {isa = PBXBuildFile; fileRef = E4AF65753104D80D2F6525987C09E6D4 /* BDAutoTrackURLHostItemCN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD6ACC529CCF1C8D24D9A765735C45A8 /* TTVideoEnginePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 240CCAB1A4382C18F0CB9A98D4168EAF /* TTVideoEnginePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF4981C88E144E9B8193B11E744E000 /* TTVideoEngine+DebugTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 155B8CF8887F5856C104F1CE7695DB1F /* TTVideoEngine+DebugTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFD8419EE1DB31438730A9AA0A1CE4B5 /* TTVideoEngineDebugVideoInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DB871698A7C796E909224B974A75F8 /* TTVideoEngineDebugVideoInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B87BF073CB6ABF0CBFEE6274542F1753 /* TTVideoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA6B557F14B0A10BE05F0CD22DC735C /* TTVideoEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9F225ED9C5AE79CFE5B047119A1E528 /* BDCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B769A129D5D9AFFE3AD05505778F3C7 /* BDCommonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC884190C2D85A962120E00D10FAC26B /* BDAutoTrackConfig+BDroneMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3EFE7A1944BB4D6C89C1443A5CCC8F /* BDAutoTrackConfig+BDroneMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD522043C992696AC3F1C89DA1AF62A3 /* TTVideoEngine+Audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C84E74BCE1DF3D265DC385FF9CB1BC /* TTVideoEngine+Audio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD5F0C1897ACDC97F3E8325F00A58EDA /* BDAutoTrackSchemeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7EA7C41812A79880B0C912E2D29201 /* BDAutoTrackSchemeHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED5C0285975953AA8AF73611773A113 /* TTVideoEnginePlayInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F79D8B454D67BF800D0F99D50C6827 /* TTVideoEnginePlayInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFEAACDFC80BB71A8B8D3719CC7BB44D /* TTVideoEngineVideoModelSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C96AF9476DB7D075ECC9947C2EEE27E /* TTVideoEngineVideoModelSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1459ADEAAD3A4F93D44DC6808A88BF1 /* TTSDKPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C487CEDCC54364643C70173EF3B4F18C /* TTSDKPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4043D614DA5C88339482051010E5F0C /* TTVideoPreloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EAAE4F4C62B9F52A62C0391D2D19795 /* TTVideoPreloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C43A20B0A672B70C7FF2C52BCA383B9C /* VodSettingsNetProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5E89AA91955F77D460786386E37A5E /* VodSettingsNetProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A57A5318191078177F7560680C3E26 /* TTVideoEngineLoadProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = AF241CCAD706297C9A1C398D11024057 /* TTVideoEngineLoadProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55E6A8CDF486D3237F2F0B2B28E277B /* VodSettingsConfigEnv.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C48A7CEC4EE062E948BE2339D0557B /* VodSettingsConfigEnv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD9CC3B6F6D912B8C6B828E5DCBE0883 /* TTSDKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4007BB70027E99DD64F6C41137FDB7 /* TTSDKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2E36F45DE8E10EFF415EC7D7B2B69F7 /* VCVodStrategyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFFF11F1D309A1AC8C7D3177D6F2659 /* VCVodStrategyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D444A51E54590F4FF2C65D4913D4CC82 /* TTVideoEnginePlayItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1053531DA1852817D9C39B1DCE316A18 /* TTVideoEnginePlayItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4BB9D43A24E62163A81D5E590AAEBFE /* TTVideoEngineThumbInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 753A1F26EBBF14B401A3F561841591F6 /* TTVideoEngineThumbInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D593F40ABD82395F3B48396EBEF35A79 /* BDAutoTrack+SharedInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 945CC3EA0CF31CD293AE2C98A698E558 /* BDAutoTrack+SharedInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6BE86149E58A7DFACB83FB705DAD7A5 /* TTVideoEngineConfigCenterHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C0302AF4316D447547688C6B126A9C24 /* TTVideoEngineConfigCenterHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D82AE0BE7ED398244CAF37EAE4384282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D8570186D02B03B6391DFF8B8DBA82A4 /* BDAutoTrack+Profile.h in Headers */ = {isa = PBXBuildFile; fileRef = D05E449EAF07705DBDB12D3C5CAF914C /* BDAutoTrack+Profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD135BD80DD431A67C62D9A5C3CD5E63 /* TTVideoEngineMasterPlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 889B0BBD578EA92700C3D4100F545323 /* TTVideoEngineMasterPlaylist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD9866D5C5CC858A3F2277A415F1463C /* RangersAppLog-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE7CFB5A5584A4B24AD4AE96B0880D /* RangersAppLog-bitdummy.m */; };
+		E0A279C9C1DCE51A48354B3E8B583C43 /* VodSettingsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 605779451F01909C85E6C4B01036F92C /* VodSettingsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0AFA175CF9E9CA5B96C0E2444BDC6E6 /* VCNetworkSpeedRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A00B03FF310B71A2B8FD2C8523BF /* VCNetworkSpeedRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E101950D33894C2510F0E5302CF01CC7 /* TTVideoCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E80892DDD29D34262A08D63C538741C /* TTVideoCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1AFA76E8D704E3170980229DC73DDA8 /* TTVideoEngineVideoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD0EE5E5A2855D1C13BF7FA34CB4969 /* TTVideoEngineVideoInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B181E6B246FF084E04924C9B616C34 /* RangersAppLogCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 148391AA14201875662085BCDA44B419 /* RangersAppLogCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B6AD834DAD4B1C9A50A250A3482CDE /* TTVideoEngineMediaSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE6B2431ECBC27D303BC9742AB3C339 /* TTVideoEngineMediaSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1C9CCBC6D1A844FE94F91918FA7E976 /* IVCNetworkSpeedRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBFE1AD82D4A0056D0686FAC28C9DCE /* IVCNetworkSpeedRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36C9D79BBF2D2A12403C5D7E0BB3519 /* TTVideoEngineCodecStrategyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 807420FBBADEF5ABEF8776C0AD51C7DB /* TTVideoEngineCodecStrategyUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E48DD45629B0C7996048F6E66D6FCF79 /* TTVideoEngineStrategyScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BBC0895ED4BA32ED3CAF71D337249F /* TTVideoEngineStrategyScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB7E9E8F1CAEC5FD52D2BCBF5EDE4BC7 /* VodSettingsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A1873166F30BD7FEF5DED6BD83EFCE /* VodSettingsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC5215477EAEE926944C18B8BDA437D /* TTVideoEngine+SubTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = D2407B5A338DFFF8F9BC435B5CF74C83 /* TTVideoEngine+SubTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD7C3AFF6E98C6F2EC65EE0BEE20049 /* TTVideoEngine+BufferProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 12A50E1A893B7EDB3DBE592CCC2D60D9 /* TTVideoEngine+BufferProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC44D53BB4767E263262FADDB733B128 /* TTVideoEngineUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 86655E5FE929DF8EBFE7405EE692E428 /* TTVideoEngineUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC94B05273F3522EC198C0B30B7CC70A /* TTVideoEnginePreloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C99EB070660278595CB5CEA12F560F /* TTVideoEnginePreloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE969F9015FD2392E1EC4A5B7706803E /* TTVideoEngineVRAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F602EB2413AA3E618939691FC40F84C5 /* TTVideoEngineVRAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0433CC4A465CC4107F96D51D9662DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F17C6E316D14A3CDE56A09270F2116B5 /* TYMediaPlayRecoredManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B54266955AB22F08ABECF5158746E /* TYMediaPlayRecoredManager.swift */; };
+		F389CAC2302780343F1D4C372C270590 /* TTVideoEngineVRReaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D861BAAE6D46BA08FA9CB68EE3DC24 /* TTVideoEngineVRReaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E5F3ADF875BC9D31FCD1EB7B8157A5 /* TTVideoEngine+Preload.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D1525DA7285D399570DF2F5936D871 /* TTVideoEngine+Preload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72765D7955370AFCA3914F87711E509 /* BDAutoTrackCacheRemover.h in Headers */ = {isa = PBXBuildFile; fileRef = C44428BAA22A9F8F0442320108E44252 /* BDAutoTrackCacheRemover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05051780D31D9813A26953F484940BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5620AD141C2F01A37D0588EE638812FB;
+			remoteInfo = TTSDKFramework;
+		};
+		4398B43328A1528AA2C8D349BA130B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A001AD04E0DD94DF897A4E6622EB225F;
+			remoteInfo = TYMediaPlayer;
+		};
+		84A780C9DF9E15A50A8E26077B3CDE5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF937598E444D6152D9CA2A472767ED9;
+			remoteInfo = RangersAppLog;
+		};
+		A93B6DF389F88F916CF3B1E740F784A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5620AD141C2F01A37D0588EE638812FB;
+			remoteInfo = TTSDKFramework;
+		};
+		E69C826185A56D074B42037BDDAB338A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7309BEC62178A076A15A53B5BBCFE773;
+			remoteInfo = "RangersAppLog-RangersAppLog";
+		};
+		F396F160FBB2DFF018A5C107D2460606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF937598E444D6152D9CA2A472767ED9;
+			remoteInfo = RangersAppLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012F2548CEC15CFF70F6355E75839450 /* TTSDKTTFFmpegNormal.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKTTFFmpegNormal.xcframework; path = TTSDKFramework/TTSDKTTFFmpegNormal/TTSDKTTFFmpegNormal.xcframework; sourceTree = "<group>"; };
+		055FB6E363E5C41A2EBE6285786ECA8D /* TTSDKVCN.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKVCN.xcframework; path = TTSDKFramework/TTSDKVCN/TTSDKVCN.xcframework; sourceTree = "<group>"; };
+		058D116902747A480F1DB5EE3B69F566 /* TTVideoEngineMaskInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineMaskInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineMaskInfo.h; sourceTree = "<group>"; };
+		08ED0FF237EBA0F5931AA64C9AF89757 /* ResourceBundle-RangersAppLog-RangersAppLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RangersAppLog-RangersAppLog-Info.plist"; sourceTree = "<group>"; };
+		09C84E74BCE1DF3D265DC385FF9CB1BC /* TTVideoEngine+Audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+Audio.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+Audio.h"; sourceTree = "<group>"; };
+		0A70BCD0EC58C5DB8FFF2025F9EC5DB3 /* TTVideoEngineModelDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineModelDef.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineModelDef.h; sourceTree = "<group>"; };
+		0A7EA7C41812A79880B0C912E2D29201 /* BDAutoTrackSchemeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackSchemeHandler.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackSchemeHandler.h; sourceTree = "<group>"; };
+		0ADB1B499C506989F6CC90CBA8B8B1DF /* TTFFmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTFFmpeg.xcframework; path = TTSDKFramework/TTSDKTTFFmpegNormal/TTFFmpeg.xcframework; sourceTree = "<group>"; };
+		0C3CDC4A90BAB53207BDE84F47AFE35B /* TTVideoEngineFragment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineFragment.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineFragment.h; sourceTree = "<group>"; };
+		0CC54E41BC2CE529BD46D2CC1CA4B9EB /* RangersAppLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangersAppLog-dummy.m"; sourceTree = "<group>"; };
+		0E80892DDD29D34262A08D63C538741C /* TTVideoCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoCacheManager.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoCacheManager.h; sourceTree = "<group>"; };
+		10476D405A6E7B64E66956E59DB13A61 /* RangersAppLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RangersAppLog.modulemap; sourceTree = "<group>"; };
+		1053531DA1852817D9C39B1DCE316A18 /* TTVideoEnginePlayItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEnginePlayItem.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEnginePlayItem.h; sourceTree = "<group>"; };
+		11E6AD79AD30A38326F9A7562A682A5C /* VCABRDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCABRDeviceInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCABRDeviceInfo.h; sourceTree = "<group>"; };
+		124D737A7E66B1D0FBC5B1A067AC7A18 /* TTSDKVolcLog.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKVolcLog.xcframework; path = TTSDKFramework/TTSDKVolcLog/TTSDKVolcLog.xcframework; sourceTree = "<group>"; };
+		12A50E1A893B7EDB3DBE592CCC2D60D9 /* TTVideoEngine+BufferProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+BufferProcessor.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+BufferProcessor.h"; sourceTree = "<group>"; };
+		143634E50CEAFCA6CB8E1FBF19C2B61F /* TTVideoEngineNetClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineNetClient.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineNetClient.h; sourceTree = "<group>"; };
+		148391AA14201875662085BCDA44B419 /* RangersAppLogCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAppLogCore.h; path = BDAutoTracker/Classes/Core/Core/Header/RangersAppLogCore.h; sourceTree = "<group>"; };
+		155B8CF8887F5856C104F1CE7695DB1F /* TTVideoEngine+DebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+DebugTool.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+DebugTool.h"; sourceTree = "<group>"; };
+		159D81202D8042E044A26E28B4A21BC2 /* IVCABRInfoListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCABRInfoListener.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCABRInfoListener.h; sourceTree = "<group>"; };
+		16F2012E7573BA37106D5634C8A6D8D8 /* TTVideoEngineVidSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineVidSource.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineVidSource.h; sourceTree = "<group>"; };
+		18F35A1CCAAEC7905E77D26F326CF680 /* TYMediaPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYMediaPlayer-dummy.m"; sourceTree = "<group>"; };
+		1C737F94910C2A8426B723AAD5CBC533 /* TYMediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYMediaPlayer.h; path = TYMediaPlayer/Classes/TYMediaPlayer.h; sourceTree = "<group>"; };
+		1F5B4DD278AD1AB17AB6EEC4BCBFAAA9 /* ttplayer.metallib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "archive.metal-library"; name = ttplayer.metallib; path = TTSDKFramework/TTSDKPlayerCoreNormal/Resources/ttplayer.metallib; sourceTree = "<group>"; };
+		1F95A3D0E29065B486F5E1CF6E3DE19A /* TTVideoEngine+Mask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+Mask.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+Mask.h"; sourceTree = "<group>"; };
+		1FBFE1AD82D4A0056D0686FAC28C9DCE /* IVCNetworkSpeedRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCNetworkSpeedRecord.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCNetworkSpeedRecord.h; sourceTree = "<group>"; };
+		1FE66B10F81E19360C3E18832E146C3A /* TTVideoEngineStrategyPreloadConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineStrategyPreloadConfig.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineStrategyPreloadConfig.h; sourceTree = "<group>"; };
+		2276879F6DADDC49FAA5BF683F092214 /* TTVideoEngine+AutoRes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+AutoRes.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+AutoRes.h"; sourceTree = "<group>"; };
+		240CCAB1A4382C18F0CB9A98D4168EAF /* TTVideoEnginePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEnginePool.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEnginePool.h; sourceTree = "<group>"; };
+		24EB56BE01C63E4CC75277D2191DB875 /* IVCABRModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCABRModule.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCABRModule.h; sourceTree = "<group>"; };
+		26878E02DA9A66AC04FFBC3A6EDBE642 /* TTVideoEngineAuthTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineAuthTimer.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineAuthTimer.h; sourceTree = "<group>"; };
+		27BE7CFB5A5584A4B24AD4AE96B0880D /* RangersAppLog-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangersAppLog-bitdummy.m"; sourceTree = "<group>"; };
+		28419A607D61F801B316FA45AA7EAF19 /* TTVideoEngineUrlSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineUrlSource.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineUrlSource.h; sourceTree = "<group>"; };
+		29BC51F66737431C5F58DBA552D3D112 /* TTSDKFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTSDKFramework.release.xcconfig; sourceTree = "<group>"; };
+		2D853D46A8D5D1F43646820756291B7B /* TTVideoEngine+AIBarrage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+AIBarrage.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+AIBarrage.h"; sourceTree = "<group>"; };
+		2E94EE92FA3B6CD61CAC50D73F6936AE /* TTSDKPlayerCoreNormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSDKPlayerCoreNormal.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/TTSDKPlayerCoreNormal.h; sourceTree = "<group>"; };
+		3242C113054271D05E7676750F72D0A7 /* TTSDKFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTSDKFramework.debug.xcconfig; sourceTree = "<group>"; };
+		32A285E1B8D0CDAE4F8A4D724B6BB04B /* BDCommonEnumDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCommonEnumDefine.h; path = BDAutoTracker/Classes/Core/Core/Header/BDCommonEnumDefine.h; sourceTree = "<group>"; };
+		33205750085A0651C4B8077F4830243F /* VolcBaseLog.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = VolcBaseLog.xcframework; path = TTSDKFramework/TTSDKVolcLog/VolcBaseLog.xcframework; sourceTree = "<group>"; };
+		35D5155C94825ABF508A6DD95F90BBA5 /* BDAutoTrackEncryptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackEncryptionDelegate.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackEncryptionDelegate.h; sourceTree = "<group>"; };
+		35D9F9E761AC31FB0D0E85AECAD4C2D1 /* Pods-TYMediaPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYMediaPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39652AE0564666C53AFEFFDC0D16C374 /* TTVideoEngineMultiEncodingUrlSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineMultiEncodingUrlSource.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineMultiEncodingUrlSource.h; sourceTree = "<group>"; };
+		3991AB99A7672C750DACFB228AC17081 /* RangersAppLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangersAppLog.debug.xcconfig; sourceTree = "<group>"; };
+		3A5E89AA91955F77D460786386E37A5E /* VodSettingsNetProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsNetProtocol.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsNetProtocol.h; sourceTree = "<group>"; };
+		3AA1024F1F2D081E4458AC439E825C81 /* IVCNetworkSpeedPredictor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCNetworkSpeedPredictor.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCNetworkSpeedPredictor.h; sourceTree = "<group>"; };
+		417D3548A83580F876314C8D57C61309 /* VCStrategyMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCStrategyMedia.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCStrategyMedia.h; sourceTree = "<group>"; };
+		41F99ACDCA170CF1D58A91EABA39AB61 /* TTSDKHttpDNS.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKHttpDNS.xcframework; path = TTSDKFramework/TTSDKHttpDNS/TTSDKHttpDNS.xcframework; sourceTree = "<group>"; };
+		42F7D79AEE2BFD9B9DC195BCD0FE0069 /* TTVideoEngineKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineKeys.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineKeys.h; sourceTree = "<group>"; };
+		435335EE5A191F383E5D2E51BD215881 /* IVCABRModuleSpeedRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCABRModuleSpeedRecord.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCABRModuleSpeedRecord.h; sourceTree = "<group>"; };
+		441C55B135059FD4BD65ACB07CF515D4 /* processor.metallib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "archive.metal-library"; name = processor.metallib; path = TTSDKFramework/TTSDKPlayerCoreNormal/Resources/processor.metallib; sourceTree = "<group>"; };
+		4435D70C4203DA136279B26A0B8F2F0E /* TTVideoEngine+Video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+Video.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+Video.h"; sourceTree = "<group>"; };
+		44C48A7CEC4EE062E948BE2339D0557B /* VodSettingsConfigEnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsConfigEnv.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsConfigEnv.h; sourceTree = "<group>"; };
+		450D706A49D8F92792C19EBC5E0E7959 /* TYPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TYPlayer.swift; sourceTree = "<group>"; };
+		4550F6FF870F8F068C329DF8F4B3C9A1 /* TYMediaPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYMediaPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		45D954D46CA6DFBD2D943493EEC29FDD /* FPPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPlayer.m; sourceTree = "<group>"; };
+		462F547257E547593FF6B062F265C0D0 /* TYMediaPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYMediaPlayer-prefix.pch"; sourceTree = "<group>"; };
+		48CAE2493E2668E8F204D1E76C1308ED /* TTVideoEngineConfigCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineConfigCenterProtocol.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineConfigCenterProtocol.h; sourceTree = "<group>"; };
+		4991FC7DA395CE9DFD2D515A6629C258 /* Pods-TYMediaPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYMediaPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B04D509945570642DE10F87BCB6F386 /* TYPlayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TYPlayerModel.swift; sourceTree = "<group>"; };
+		4B769A129D5D9AFFE3AD05505778F3C7 /* BDCommonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCommonDefine.h; path = BDAutoTracker/Classes/Core/Core/Header/BDCommonDefine.h; sourceTree = "<group>"; };
+		4BD357EDD862DC38835F43D93D2B993B /* TTVideoEngine+Tracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+Tracker.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+Tracker.h"; sourceTree = "<group>"; };
+		4DA6B557F14B0A10BE05F0CD22DC735C /* TTVideoEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngine.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine.h; sourceTree = "<group>"; };
+		4E4F4A22F1D5C1EAE6BB7E4DFBCC2CDE /* Pods-TYMediaPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYMediaPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EAAE4F4C62B9F52A62C0391D2D19795 /* TTVideoPreloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoPreloader.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoPreloader.h; sourceTree = "<group>"; };
+		51A1873166F30BD7FEF5DED6BD83EFCE /* VodSettingsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsManager.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsManager.h; sourceTree = "<group>"; };
+		52BBC0895ED4BA32ED3CAF71D337249F /* TTVideoEngineStrategyScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineStrategyScene.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineStrategyScene.h; sourceTree = "<group>"; };
+		52D8CFB044B498D056B8F13444676BED /* TYMediaPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYMediaPlayer-umbrella.h"; sourceTree = "<group>"; };
+		53A14EBA9B7BFAADD987A2D01099540A /* TTVideoEngineSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineSource.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineSource.h; sourceTree = "<group>"; };
+		54C3E271148F4D417B2EFBCC55D80BD8 /* TTAVPreloaderItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAVPreloaderItem.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTAVPreloaderItem.h; sourceTree = "<group>"; };
+		5552DBA93CE65C90CDA7C4F7B2F46B65 /* RangersAppLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangersAppLog-umbrella.h"; sourceTree = "<group>"; };
+		5576D8335AEAD48FC0A98D34EECD461E /* TTVideoEngine+MasterPlaylist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+MasterPlaylist.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+MasterPlaylist.h"; sourceTree = "<group>"; };
+		5829B9370CC95BBFF40E3D1F569D3344 /* RangersAppLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangersAppLog-prefix.pch"; sourceTree = "<group>"; };
+		59D1525DA7285D399570DF2F5936D871 /* TTVideoEngine+Preload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+Preload.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+Preload.h"; sourceTree = "<group>"; };
+		5B9936BB4FF94EF5177C8A07C9CA6D9E /* av_audio_wrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = av_audio_wrapper.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/av_audio_wrapper.h; sourceTree = "<group>"; };
+		605779451F01909C85E6C4B01036F92C /* VodSettingsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsHeader.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsHeader.h; sourceTree = "<group>"; };
+		61089B019E903E692B793660288A31FF /* TTVideoEngineExtraInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineExtraInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineExtraInfo.h; sourceTree = "<group>"; };
+		6110F128255BEF374E7820EFF36C90C8 /* TTSDKFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTSDKFramework-dummy.m"; sourceTree = "<group>"; };
+		6326C8575F13588FB715408C5FE53783 /* RangersAppLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangersAppLog.release.xcconfig; sourceTree = "<group>"; };
+		657B54266955AB22F08ABECF5158746E /* TYMediaPlayRecoredManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TYMediaPlayRecoredManager.swift; sourceTree = "<group>"; };
+		666E9D82DB23F9821DEA3FFE8A03894A /* TYPlayerTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TYPlayerTool.swift; sourceTree = "<group>"; };
+		685ADF70FDB4F4EDDC35BC22AF620FCA /* TTVideoEngineModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineModel.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineModel.h; sourceTree = "<group>"; };
+		6AFD9C3050791221E85C98A0F097D3DF /* TTVideoEngineNetworkPortraitData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineNetworkPortraitData.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineNetworkPortraitData.h; sourceTree = "<group>"; };
+		6B2CF630DB90FFD93696FBBA95461046 /* Pods-TYMediaPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYMediaPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BBC48F1028547D17EDBD9222F52C2E7 /* TTSDKPlayer.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKPlayer.xcframework; path = TTSDKFramework/TTSDKPlayer/TTSDKPlayer.xcframework; sourceTree = "<group>"; };
+		6C0F8390414531747AB4B1F3CC91C262 /* BDAutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrack.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack.h; sourceTree = "<group>"; };
+		6CB440E2716CE67FBD770F3A91AC7B0C /* TTSDKFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTSDKFramework-Info.plist"; sourceTree = "<group>"; };
+		6FE6B2431ECBC27D303BC9742AB3C339 /* TTVideoEngineMediaSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineMediaSource.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineMediaSource.h; sourceTree = "<group>"; };
+		6FFFF11F1D309A1AC8C7D3177D6F2659 /* VCVodStrategyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCVodStrategyManager.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCVodStrategyManager.h; sourceTree = "<group>"; };
+		70986A8C41224EA93217D60E0BCAEE32 /* Pods-TYMediaPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYMediaPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		709D41E3322B473D14B4AD55A2A17D7F /* BDAutoTrack+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+Extension.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+Extension.h"; sourceTree = "<group>"; };
+		70DB871698A7C796E909224B974A75F8 /* TTVideoEngineDebugVideoInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineDebugVideoInfoView.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineDebugVideoInfoView.h; sourceTree = "<group>"; };
+		711A8F922674322F4C9980DA51DC24B6 /* BDAutoTrackConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackConfig.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackConfig.h; sourceTree = "<group>"; };
+		716F5D2F262124FBE77F7EE2B55D218B /* TTSDKTools.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKTools.xcframework; path = TTSDKFramework/TTSDKTools/TTSDKTools.xcframework; sourceTree = "<group>"; };
+		7348B2197DF968D146A1BF1FEA5A2046 /* TTSDKFramework_Dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSDKFramework_Dummy.m; path = TTSDKFramework/TTSDKFramework_Dummy.m; sourceTree = "<group>"; };
+		744A4545745B09E3E167B99137CA1A10 /* TTVideoEngineSmartUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineSmartUrl.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineSmartUrl.h; sourceTree = "<group>"; };
+		753A1F26EBBF14B401A3F561841591F6 /* TTVideoEngineThumbInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineThumbInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineThumbInfo.h; sourceTree = "<group>"; };
+		772DA5E3F2B49ADEFEF0002135BA123A /* IVCABRStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCABRStream.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCABRStream.h; sourceTree = "<group>"; };
+		79A1A00B03FF310B71A2B8FD2C8523BF /* VCNetworkSpeedRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCNetworkSpeedRecord.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCNetworkSpeedRecord.h; sourceTree = "<group>"; };
+		7CD825F7DC6508C3C646503C7FF64730 /* TTVideoEngineDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineDownloader.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineDownloader.h; sourceTree = "<group>"; };
+		7D3EFE7A1944BB4D6C89C1443A5CCC8F /* BDAutoTrackConfig+BDroneMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrackConfig+BDroneMonitor.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackConfig+BDroneMonitor.h"; sourceTree = "<group>"; };
+		7D4007BB70027E99DD64F6C41137FDB7 /* TTSDKFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSDKFramework.h; path = TTSDKFramework/TTSDKFramework.h; sourceTree = "<group>"; };
+		7D540B4B4C2871A0914BAC4E3578BD0E /* VCABRBufferInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCABRBufferInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCABRBufferInfo.h; sourceTree = "<group>"; };
+		7E1A246D9B0E3AA97712AA4C126E7C6D /* TTVideoEngine+MediaTrackInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+MediaTrackInfo.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+MediaTrackInfo.h"; sourceTree = "<group>"; };
+		802EA48C75BDEB8554E7F3550DB325BB /* RangersAppLog-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "RangersAppLog-xcframeworks.sh"; sourceTree = "<group>"; };
+		804A0C390F3ED3192D594FB601D59ECE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		807420FBBADEF5ABEF8776C0AD51C7DB /* TTVideoEngineCodecStrategyUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineCodecStrategyUtil.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineCodecStrategyUtil.h; sourceTree = "<group>"; };
+		8139DD6512BE213A85DE6585E55D1DB5 /* TTVideoEngineHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineHeader.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineHeader.h; sourceTree = "<group>"; };
+		821F9F065BF85CA984AB193A6B292F18 /* TTAVPlayerMaskInfoInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAVPlayerMaskInfoInterface.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/TTAVPlayerMaskInfoInterface.h; sourceTree = "<group>"; };
+		83262EE647B8599E2406E201376D1510 /* TTVideoEngineVRModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineVRModel.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineVRModel.h; sourceTree = "<group>"; };
+		85D2C2640887B8269A83E3B5E25892D9 /* Pods-TYMediaPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYMediaPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		865492D3A21CDB4D1F66E34E8CBB0306 /* FPPlayerMediaPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPlayerMediaPlayback.h; sourceTree = "<group>"; };
+		86655E5FE929DF8EBFE7405EE692E428 /* TTVideoEngineUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineUtil.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineUtil.h; sourceTree = "<group>"; };
+		889B0BBD578EA92700C3D4100F545323 /* TTVideoEngineMasterPlaylist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineMasterPlaylist.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineMasterPlaylist.h; sourceTree = "<group>"; };
+		89D861BAAE6D46BA08FA9CB68EE3DC24 /* TTVideoEngineVRReaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineVRReaction.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineVRReaction.h; sourceTree = "<group>"; };
+		8C54D488AA3E4054121F034A6EDE04FF /* TTSDKCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKCore.xcframework; path = TTSDKFramework/TTSDKCore/TTSDKCore.xcframework; sourceTree = "<group>"; };
+		8CD0EE5E5A2855D1C13BF7FA34CB4969 /* TTVideoEngineVideoInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineVideoInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineVideoInfo.h; sourceTree = "<group>"; };
+		8EC2855E8143509C6944EED1B7C7B4F9 /* TTVideoEngine+AsyncInit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+AsyncInit.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+AsyncInit.h"; sourceTree = "<group>"; };
+		8F6E716756945FC063CFB98DC1AC18D5 /* TYMediaPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYMediaPlayer-Info.plist"; sourceTree = "<group>"; };
+		90C254CDB0B4115BFF0D7E683EEE74F5 /* TTVideoEngine+VR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+VR.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+VR.h"; sourceTree = "<group>"; };
+		945CC3EA0CF31CD293AE2C98A698E558 /* BDAutoTrack+SharedInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+SharedInstance.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+SharedInstance.h"; sourceTree = "<group>"; };
+		95175FFB7B6D2BD02F1B9B5CBED905F2 /* TTVideoEngineConfigCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineConfigCenter.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineConfigCenter.h; sourceTree = "<group>"; };
+		964F4514EFB87642EEA82CDF6E0505FA /* VCABRAudioStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCABRAudioStream.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCABRAudioStream.h; sourceTree = "<group>"; };
+		98041BC82D2D56E6DAB4D282652B6D23 /* IVCABRDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCABRDeviceInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCABRDeviceInfo.h; sourceTree = "<group>"; };
+		98316ABD798643F24A7BBB0D31E7277A /* TTSDKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTSDKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9896E9DFC648F3CD4420B0B955830C1B /* Pods-TYMediaPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYMediaPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		98D7903A51B850088BCFAA65C231BD07 /* TTSDKPlayerCoreNormal.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKPlayerCoreNormal.xcframework; path = TTSDKFramework/TTSDKPlayerCoreNormal/TTSDKPlayerCoreNormal.xcframework; sourceTree = "<group>"; };
+		9B34386D6CD8F1585A7F34C405F16CCD /* Pods-TYMediaPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYMediaPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		9B71373A54C07A1417A5B67901E46EDE /* TTVideoEngineAVPlayerItemAccessLogEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineAVPlayerItemAccessLogEvent.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineAVPlayerItemAccessLogEvent.h; sourceTree = "<group>"; };
+		9C54D4CFBB97816B330BA34C6141647D /* BDAutoTrack+Special.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+Special.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+Special.h"; sourceTree = "<group>"; };
+		9C80486CB3A410163100849FC94FA607 /* TTAVPlayerLoadControlInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAVPlayerLoadControlInterface.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/TTAVPlayerLoadControlInterface.h; sourceTree = "<group>"; };
+		9C96AF9476DB7D075ECC9947C2EEE27E /* TTVideoEngineVideoModelSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineVideoModelSource.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineVideoModelSource.h; sourceTree = "<group>"; };
+		9D0AE51247AB22C455B20FAC7FF6E653 /* RangersAppLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAppLog.h; path = BDAutoTracker/Classes/Core/Core/Header/RangersAppLog.h; sourceTree = "<group>"; };
+		9D49B215A2F08883AC5B1E878601CB35 /* TTVideoEngineStrategyABRConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineStrategyABRConfig.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineStrategyABRConfig.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1966BEEB5F224BBC01F953CC73E047 /* TTVideoEngineStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineStrategy.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineStrategy.h; sourceTree = "<group>"; };
+		9F5E3C35923B435FF6BBFEE8BFCAF519 /* TYMediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TYMediaPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A135C651D9C4F8A66E66005223A4735C /* RangersAppLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RangersAppLog-Info.plist"; sourceTree = "<group>"; };
+		A65E8AA6AC025636A1AF5D09ADC6D23C /* IVCABRBufferInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCABRBufferInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCABRBufferInfo.h; sourceTree = "<group>"; };
+		A6C99EB070660278595CB5CEA12F560F /* TTVideoEnginePreloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEnginePreloader.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEnginePreloader.h; sourceTree = "<group>"; };
+		A9D1DB6E9ACB23524A74BF8CF2505B72 /* libRangersAppLog_CN_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_CN_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_CN_awesome_ios.a"; sourceTree = "<group>"; };
+		AB6AE92E3291CFAED37833AC6734DE51 /* TTVideoEngineNetworkPredictorReaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineNetworkPredictorReaction.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineNetworkPredictorReaction.h; sourceTree = "<group>"; };
+		AC5BEF7289B1E8856F5900BC8A60C01C /* TTVideoEngineInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineInfoModel.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineInfoModel.h; sourceTree = "<group>"; };
+		ACBD5537B099BDD91875E5C375DB485A /* TYMediaPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TYMediaPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD2643FC01963739697544AEAED72325 /* BDAutoTrackEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackEncryptor.h; path = BDAutoTracker/Classes/Encryptor/Volc/Sources/BDAutoTrackEncryptor.h; sourceTree = "<group>"; };
+		AE08AC61DED848B3C2603BDD35DD1423 /* TTVideoEngineDebugTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineDebugTools.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineDebugTools.h; sourceTree = "<group>"; };
+		AF241CCAD706297C9A1C398D11024057 /* TTVideoEngineLoadProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineLoadProgress.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineLoadProgress.h; sourceTree = "<group>"; };
+		B21F70F43A0978589BA5E4B002F834CC /* libRangersAppLog_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_Core_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		B31BB8C8F09C7195F3183EAE335BBCB5 /* TTSDKFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TTSDKFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		B31C3D1F58536D256BBCDEE53089EBBB /* libvcn.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = libvcn.xcframework; path = TTSDKFramework/TTSDKVCN/libvcn.xcframework; sourceTree = "<group>"; };
+		B3871956845EEED667D18417D3B16ECD /* RangersAppLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RangersAppLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42AB437CFFB0751CCED58D4E60248F9 /* VolcEngineEncryptor.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = VolcEngineEncryptor.xcframework; path = BDAutoTracker/Classes/Encryptor/Volc/Vendor/VolcEngineEncryptor.xcframework; sourceTree = "<group>"; };
+		B4DDF454451D6CA87DE1EB593B6085C0 /* TTSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSDKManager.h; path = TTSDKFramework/TTSDKCore/Classes/Headers/TTSDKManager.h; sourceTree = "<group>"; };
+		B5C15BE2142BEBAB61FC774060FEE751 /* RangersAppLog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangersAppLog.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B920949B9E90D5C99C96F0981DEE18 /* TTVideoEngine+Strategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+Strategy.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+Strategy.h"; sourceTree = "<group>"; };
+		B7F79D8B454D67BF800D0F99D50C6827 /* TTVideoEnginePlayInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEnginePlayInfo.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEnginePlayInfo.h; sourceTree = "<group>"; };
+		B9567D9FE0910AE6DAADB3483A568BCA /* IVCABRPlayStateSupplier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVCABRPlayStateSupplier.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/IVCABRPlayStateSupplier.h; sourceTree = "<group>"; };
+		BA15D461175DB1A88CB4C884EC436A58 /* TTVideoEngineEventManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineEventManager.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineEventManager.h; sourceTree = "<group>"; };
+		BA7D3E944F466E9A3CE6F6389067C719 /* h5bridge-wkwebview.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = "h5bridge-wkwebview.js"; path = "BDAutoTracker/Asserts/Core/h5bridge-wkwebview.js"; sourceTree = "<group>"; };
+		BB4D08C98A7BC75A3B38D5317AEBCF35 /* TTSDKReachability.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKReachability.xcframework; path = TTSDKFramework/TTSDKReachability/TTSDKReachability.xcframework; sourceTree = "<group>"; };
+		BC27F86AAD60A9CABEC2A873730BA437 /* TTSDKFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTSDKFramework.modulemap; sourceTree = "<group>"; };
+		BC39F606FA1F9013F0C7412590E516DB /* TTVideoEngineStrategyDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineStrategyDataSource.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineStrategyDataSource.h; sourceTree = "<group>"; };
+		BDC05A0D893486B0F63EAAD7335F59BC /* VodSettingsDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsDefine.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsDefine.h; sourceTree = "<group>"; };
+		C00AA3CB6D12FEAC3B0E6DD2CD947EF2 /* TTVideoEngineEnvConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineEnvConfig.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineEnvConfig.h; sourceTree = "<group>"; };
+		C0302AF4316D447547688C6B126A9C24 /* TTVideoEngineConfigCenterHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineConfigCenterHelper.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineConfigCenterHelper.h; sourceTree = "<group>"; };
+		C44428BAA22A9F8F0442320108E44252 /* BDAutoTrackCacheRemover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackCacheRemover.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackCacheRemover.h; sourceTree = "<group>"; };
+		C487CEDCC54364643C70173EF3B4F18C /* TTSDKPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSDKPlayer.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTSDKPlayer.h; sourceTree = "<group>"; };
+		C56694366D10DCECADF47CA841F808E2 /* VCABRConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCABRConfig.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCABRConfig.h; sourceTree = "<group>"; };
+		C90145D1F83CE6E6E231793EB2C65780 /* ttboringssl.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = ttboringssl.xcframework; path = TTSDKFramework/TTSDKSSL/ttboringssl.xcframework; sourceTree = "<group>"; };
+		CD1C57007E256F252D2DCF22A93B6795 /* BDAutoTrackNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackNotifications.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackNotifications.h; sourceTree = "<group>"; };
+		CD63152BE27C14DA5AA515AFEE12C1C1 /* TTVideoEngineConfigItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineConfigItem.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineConfigItem.h; sourceTree = "<group>"; };
+		CF6161AAC6E6CBA37DBC85A3F6F01B37 /* BDAutoTrackConfig+AppLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrackConfig+AppLog.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackConfig+AppLog.h"; sourceTree = "<group>"; };
+		D05E449EAF07705DBDB12D3C5CAF914C /* BDAutoTrack+Profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+Profile.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+Profile.h"; sourceTree = "<group>"; };
+		D2407B5A338DFFF8F9BC435B5CF74C83 /* TTVideoEngine+SubTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+SubTitle.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+SubTitle.h"; sourceTree = "<group>"; };
+		D24DF19279F96DAA0F0892FDE9E8CC8E /* VCABRVideoStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCABRVideoStream.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCABRVideoStream.h; sourceTree = "<group>"; };
+		D3782EF76E2DAD7C08EB262322D92E3D /* TTPlayerDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTPlayerDef.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/TTPlayerDef.h; sourceTree = "<group>"; };
+		D3BD430B4145AF4FF67721220A1EAE33 /* TTVideoEngine+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+Options.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+Options.h"; sourceTree = "<group>"; };
+		D4B6FC0ADBD27E9F7577F2434C323903 /* TTVideoEngineStrategyMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineStrategyMedia.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineStrategyMedia.h; sourceTree = "<group>"; };
+		D5B2D2D3EFE586AA798FD653F9D789A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D614B92852FEDEF410ABAFD3D918BE01 /* FPPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPlayer.h; sourceTree = "<group>"; };
+		D62BC56B4CF247590237FB1B9BDA131F /* TYSDKPlayerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TYSDKPlayerManager.swift; sourceTree = "<group>"; };
+		D6F8F266CC632A919A36E3D418EEDE13 /* VodSettingsFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsFetcher.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsFetcher.h; sourceTree = "<group>"; };
+		D79F9A32FEEE504F91A23C4241D73BB2 /* VodSettingsFetcherUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsFetcherUtils.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsFetcherUtils.h; sourceTree = "<group>"; };
+		DA1511664DEAAF49ADFA586AF14F8C64 /* TTVideoEngineBufferProcessResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineBufferProcessResult.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineBufferProcessResult.h; sourceTree = "<group>"; };
+		DA32F07E1B2E9B2BAB3E4658A1BF708C /* av_nativetrait.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = av_nativetrait.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/av_nativetrait.h; sourceTree = "<group>"; };
+		DBBC944A1A2D8DD3D1B3E4232D5BF519 /* VCABRResultElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCABRResultElement.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCABRResultElement.h; sourceTree = "<group>"; };
+		DC0C764122BB7E7D2577B9494C2843FA /* TTSDKFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSDKFramework-umbrella.h"; sourceTree = "<group>"; };
+		DC2C4F5A6FF809794D42428990D6E631 /* TTVideoEngineDebugVideoInfoBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineDebugVideoInfoBusiness.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineDebugVideoInfoBusiness.h; sourceTree = "<group>"; };
+		DDB3D02070185C931591BE56785D05A5 /* TTStreamInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTStreamInfo.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/TTStreamInfo.h; sourceTree = "<group>"; };
+		DDE9209899420F3C5C84C91E009F3B6A /* TTVideoEnginePlayerDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEnginePlayerDefine.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEnginePlayerDefine.h; sourceTree = "<group>"; };
+		E185C67700B6DE63FEFFD9FB7DCE02E3 /* Pods-TYMediaPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYMediaPlayer_Example-Info.plist"; sourceTree = "<group>"; };
+		E36CEDBC4EDC07D833C30887528A53A5 /* TTVideoEnginePublicProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEnginePublicProtocol.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEnginePublicProtocol.h; sourceTree = "<group>"; };
+		E4AF65753104D80D2F6525987C09E6D4 /* BDAutoTrackURLHostItemCN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackURLHostItemCN.h; path = BDAutoTracker/Classes/Host/CN/BDAutoTrackURLHostItemCN.h; sourceTree = "<group>"; };
+		E526E13294909728F8EB8996E374E537 /* FPPlayerViewDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPlayerViewDefinitions.h; sourceTree = "<group>"; };
+		E60EBE9FE84EF99CDEB3A5F25D12E412 /* VodSettingsStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VodSettingsStorage.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VodSettingsStorage.h; sourceTree = "<group>"; };
+		E99DD498F0E954E6BCC18C7B02655682 /* TYMediaPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYMediaPlayer.release.xcconfig; sourceTree = "<group>"; };
+		EBC85D860B2D7E0B003A4879D3EE5EBE /* ttcrypto.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = ttcrypto.xcframework; path = TTSDKFramework/TTSDKSSL/ttcrypto.xcframework; sourceTree = "<group>"; };
+		EBF9FA76A57E487E82156E84AFDAB680 /* TTVideoEngineInfoFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineInfoFetcher.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineInfoFetcher.h; sourceTree = "<group>"; };
+		EC7D9E75E3921B851A03614095BE5514 /* TTSDKTopSignature.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TTSDKTopSignature.xcframework; path = TTSDKFramework/TTSDKTopSignature/TTSDKTopSignature.xcframework; sourceTree = "<group>"; };
+		ED5630D14D6EEFB1746FD54729573376 /* Pods-TYMediaPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYMediaPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		EEFFB3B0837A505864A4830664F857EB /* TTVideoEngineAVPlayerItemAccessLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineAVPlayerItemAccessLog.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineAVPlayerItemAccessLog.h; sourceTree = "<group>"; };
+		F08FE2148367BD6588E9DCD506DF1B6B /* Pods_TYMediaPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYMediaPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25A555DB51416F1BA8B030A36041D67 /* libRangersAppLog_VOLC_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_VOLC_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_VOLC_awesome_ios.a"; sourceTree = "<group>"; };
+		F3B0B88C62714D4A24903A2F6142A07E /* TTVideoEngine+ConfigCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTVideoEngine+ConfigCenter.h"; path = "TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngine+ConfigCenter.h"; sourceTree = "<group>"; };
+		F3BA944932758D2AF32C05E2394EF8BF /* VCABRResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCABRResult.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/VCABRResult.h; sourceTree = "<group>"; };
+		F4965D00CF3E45F19A18BC9C4C88A374 /* TTVideoEngineNetworkSpeedPredictorConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineNetworkSpeedPredictorConfigModel.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineNetworkSpeedPredictorConfigModel.h; sourceTree = "<group>"; };
+		F4FD13FF286C4AE1B1B0D69E7A571B86 /* BDAutoTrack+LaunchFrom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+LaunchFrom.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+LaunchFrom.h"; sourceTree = "<group>"; };
+		F602EB2413AA3E618939691FC40F84C5 /* TTVideoEngineVRAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineVRAction.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineVRAction.h; sourceTree = "<group>"; };
+		F69175C4C9D7FD31545FA2569F49D0B4 /* TTSDKFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSDKFramework-prefix.pch"; sourceTree = "<group>"; };
+		F8F35913D8B6415B388B9DF8B6D49B45 /* TYMediaPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYMediaPlayer.modulemap; sourceTree = "<group>"; };
+		F94FA04D82ED2D2BEA437D4B9AB76331 /* TTAVTraitObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAVTraitObject.h; path = TTSDKFramework/TTSDKPlayerCoreNormal/Classes/Headers/TTAVTraitObject.h; sourceTree = "<group>"; };
+		F9AE32802560068ABD62DA3AEB5A3781 /* BDAutoTrackAlinkRouting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackAlinkRouting.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackAlinkRouting.h; sourceTree = "<group>"; };
+		F9E754CC86F4D78ED75AB0AC3F5CAF34 /* TTVideoEngineNetworkPredictorAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineNetworkPredictorAction.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineNetworkPredictorAction.h; sourceTree = "<group>"; };
+		FC44FFB08201A85EBA9A7EB26629AC5D /* TTVideoEngineSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTVideoEngineSettings.h; path = TTSDKFramework/TTSDKPlayer/Classes/Headers/TTVideoEngineSettings.h; sourceTree = "<group>"; };
+		FE836DB896A3ED03D9FD95038CA84062 /* TTSDKCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSDKCore.h; path = TTSDKFramework/TTSDKCore/Classes/Headers/TTSDKCore.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D68CE88F1608866396FA09D5D84F0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672A12C8982BE4A55F7A1DC9A385F2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FFF6FCA29B0438D0E0F9839AC3DB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82AE0BE7ED398244CAF37EAE4384282 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8754AEADAA7A93A0B9D0D315E6B5251B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0433CC4A465CC4107F96D51D9662DC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDDECCC31D7847D020A90E8AD4D390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFFB8213F5E54F4BAE1E1980998F65D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0EDD81E78373E68A81978BE2D6F8E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A387927A3AEF57EAAC4C89BD194E7FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62D46CFB3A77A355ADAD70659AF2C625 /* TYMediaPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0F7389D1EE4ED8B0D75A1EC42BC1EECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C54D488AA3E4054121F034A6EDE04FF /* TTSDKCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13122F2D0295FBEB4C706A7E58D2AC9F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D614B92852FEDEF410ABAFD3D918BE01 /* FPPlayer.h */,
+				45D954D46CA6DFBD2D943493EEC29FDD /* FPPlayer.m */,
+				865492D3A21CDB4D1F66E34E8CBB0306 /* FPPlayerMediaPlayback.h */,
+				E526E13294909728F8EB8996E374E537 /* FPPlayerViewDefinitions.h */,
+			);
+			name = Base;
+			path = TYMediaPlayer/Classes/Base;
+			sourceTree = "<group>";
+		};
+		15B17D72E53E8E86074FB833841D3633 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				5B9936BB4FF94EF5177C8A07C9CA6D9E /* av_audio_wrapper.h */,
+				DA32F07E1B2E9B2BAB3E4658A1BF708C /* av_nativetrait.h */,
+				9C80486CB3A410163100849FC94FA607 /* TTAVPlayerLoadControlInterface.h */,
+				821F9F065BF85CA984AB193A6B292F18 /* TTAVPlayerMaskInfoInterface.h */,
+				F94FA04D82ED2D2BEA437D4B9AB76331 /* TTAVTraitObject.h */,
+				D3782EF76E2DAD7C08EB262322D92E3D /* TTPlayerDef.h */,
+				2E94EE92FA3B6CD61CAC50D73F6936AE /* TTSDKPlayerCoreNormal.h */,
+				DDB3D02070185C931591BE56785D05A5 /* TTStreamInfo.h */,
+				579891AB8B77D86306D1BF48ECB99517 /* Frameworks */,
+				E608FB02C35397D8E182868A66C2A132 /* Resources */,
+			);
+			name = Normal;
+			sourceTree = "<group>";
+		};
+		15BB9113A8B76A35600A210939BA209E /* TopSignature */ = {
+			isa = PBXGroup;
+			children = (
+				602DD284AA6A7D7EC28FF3FCE9192BEE /* Frameworks */,
+			);
+			name = TopSignature;
+			sourceTree = "<group>";
+		};
+		1B17424994014DAAB02ACF443ABD599C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBC48F1028547D17EDBD9222F52C2E7 /* TTSDKPlayer.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D9026EBD36911AF9EAC0C71FC5D72EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				124D737A7E66B1D0FBC5B1A067AC7A18 /* TTSDKVolcLog.xcframework */,
+				33205750085A0651C4B8077F4830243F /* VolcBaseLog.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF914AD82895634B7D644231D4D88C6 /* Encryptor */ = {
+			isa = PBXGroup;
+			children = (
+				D1AD037EB2162EA7EBCC811F6BEF605F /* VOLC */,
+			);
+			name = Encryptor;
+			sourceTree = "<group>";
+		};
+		32444E1ACA81488348E21D869045B613 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				804A0C390F3ED3192D594FB601D59ECE /* LICENSE */,
+				D5B2D2D3EFE586AA798FD653F9D789A5 /* README.md */,
+				ACBD5537B099BDD91875E5C375DB485A /* TYMediaPlayer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3ACEA7F2A411C73E83E0A5A2CA858C40 /* HttpDNS */ = {
+			isa = PBXGroup;
+			children = (
+				9614096ABF786B288D74CC61373536CE /* Frameworks */,
+			);
+			name = HttpDNS;
+			sourceTree = "<group>";
+		};
+		3B4A7CEE1CE0B73684851984F6178BAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10476D405A6E7B64E66956E59DB13A61 /* RangersAppLog.modulemap */,
+				0CC54E41BC2CE529BD46D2CC1CA4B9EB /* RangersAppLog-dummy.m */,
+				A135C651D9C4F8A66E66005223A4735C /* RangersAppLog-Info.plist */,
+				5829B9370CC95BBFF40E3D1F569D3344 /* RangersAppLog-prefix.pch */,
+				5552DBA93CE65C90CDA7C4F7B2F46B65 /* RangersAppLog-umbrella.h */,
+				802EA48C75BDEB8554E7F3550DB325BB /* RangersAppLog-xcframeworks.sh */,
+				3991AB99A7672C750DACFB228AC17081 /* RangersAppLog.debug.xcconfig */,
+				6326C8575F13588FB715408C5FE53783 /* RangersAppLog.release.xcconfig */,
+				08ED0FF237EBA0F5931AA64C9AF89757 /* ResourceBundle-RangersAppLog-RangersAppLog-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RangersAppLog";
+			sourceTree = "<group>";
+		};
+		47F7585277E825256ED215E769BCE012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B7BC979426E348A1460F5B0FB3CD402 /* RangersAppLog */,
+				9196B288C6E24CA2D8669FEDB5BB30AC /* TTSDKFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48BBDFF3BB556F4F83725C0E304BA23F /* VCN */ = {
+			isa = PBXGroup;
+			children = (
+				D844289AF00E0D220260ADE009DCE521 /* Frameworks */,
+			);
+			name = VCN;
+			sourceTree = "<group>";
+		};
+		4BABCD6F1C6A06F20438CFE383FE55C8 /* VolcLog */ = {
+			isa = PBXGroup;
+			children = (
+				1D9026EBD36911AF9EAC0C71FC5D72EA /* Frameworks */,
+			);
+			name = VolcLog;
+			sourceTree = "<group>";
+		};
+		579891AB8B77D86306D1BF48ECB99517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98D7903A51B850088BCFAA65C231BD07 /* TTSDKPlayerCoreNormal.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		602DD284AA6A7D7EC28FF3FCE9192BEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7D9E75E3921B851A03614095BE5514 /* TTSDKTopSignature.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		603CA7CE0B35DB4503B4D754CD2E8106 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				E60C8BBEA9B224D7BFD08BE4F3AB823A /* CN */,
+			);
+			name = Host;
+			sourceTree = "<group>";
+		};
+		62D46CFB3A77A355ADAD70659AF2C625 /* TYMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1C737F94910C2A8426B723AAD5CBC533 /* TYMediaPlayer.h */,
+				13122F2D0295FBEB4C706A7E58D2AC9F /* Base */,
+				9D67C2FD26169815453C06EE7723DF5D /* TYPlayer */,
+				32444E1ACA81488348E21D869045B613 /* Pod */,
+				7D3739979B235DDE55AA6BCB3B5DF8F3 /* Support Files */,
+			);
+			name = TYMediaPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6B7BC979426E348A1460F5B0FB3CD402 /* RangersAppLog */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDF0253CE410485482E8582CE824F7 /* Core */,
+				1FF914AD82895634B7D644231D4D88C6 /* Encryptor */,
+				603CA7CE0B35DB4503B4D754CD2E8106 /* Host */,
+				3B4A7CEE1CE0B73684851984F6178BAC /* Support Files */,
+			);
+			path = RangersAppLog;
+			sourceTree = "<group>";
+		};
+		6DFDF0253CE410485482E8582CE824F7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6C0F8390414531747AB4B1F3CC91C262 /* BDAutoTrack.h */,
+				709D41E3322B473D14B4AD55A2A17D7F /* BDAutoTrack+Extension.h */,
+				F4FD13FF286C4AE1B1B0D69E7A571B86 /* BDAutoTrack+LaunchFrom.h */,
+				D05E449EAF07705DBDB12D3C5CAF914C /* BDAutoTrack+Profile.h */,
+				945CC3EA0CF31CD293AE2C98A698E558 /* BDAutoTrack+SharedInstance.h */,
+				9C54D4CFBB97816B330BA34C6141647D /* BDAutoTrack+Special.h */,
+				F9AE32802560068ABD62DA3AEB5A3781 /* BDAutoTrackAlinkRouting.h */,
+				C44428BAA22A9F8F0442320108E44252 /* BDAutoTrackCacheRemover.h */,
+				711A8F922674322F4C9980DA51DC24B6 /* BDAutoTrackConfig.h */,
+				CF6161AAC6E6CBA37DBC85A3F6F01B37 /* BDAutoTrackConfig+AppLog.h */,
+				7D3EFE7A1944BB4D6C89C1443A5CCC8F /* BDAutoTrackConfig+BDroneMonitor.h */,
+				35D5155C94825ABF508A6DD95F90BBA5 /* BDAutoTrackEncryptionDelegate.h */,
+				CD1C57007E256F252D2DCF22A93B6795 /* BDAutoTrackNotifications.h */,
+				0A7EA7C41812A79880B0C912E2D29201 /* BDAutoTrackSchemeHandler.h */,
+				4B769A129D5D9AFFE3AD05505778F3C7 /* BDCommonDefine.h */,
+				32A285E1B8D0CDAE4F8A4D724B6BB04B /* BDCommonEnumDefine.h */,
+				9D0AE51247AB22C455B20FAC7FF6E653 /* RangersAppLog.h */,
+				27BE7CFB5A5584A4B24AD4AE96B0880D /* RangersAppLog-bitdummy.m */,
+				148391AA14201875662085BCDA44B419 /* RangersAppLogCore.h */,
+				C82793930535166CC5CE300794506BF7 /* Frameworks */,
+				F182A665A0039839E3859E1B47297DDC /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7557CA12C09B7C485795C69181EB8AC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC27F86AAD60A9CABEC2A873730BA437 /* TTSDKFramework.modulemap */,
+				6110F128255BEF374E7820EFF36C90C8 /* TTSDKFramework-dummy.m */,
+				6CB440E2716CE67FBD770F3A91AC7B0C /* TTSDKFramework-Info.plist */,
+				F69175C4C9D7FD31545FA2569F49D0B4 /* TTSDKFramework-prefix.pch */,
+				DC0C764122BB7E7D2577B9494C2843FA /* TTSDKFramework-umbrella.h */,
+				B31BB8C8F09C7195F3183EAE335BBCB5 /* TTSDKFramework-xcframeworks.sh */,
+				3242C113054271D05E7676750F72D0A7 /* TTSDKFramework.debug.xcconfig */,
+				29BC51F66737431C5F58DBA552D3D112 /* TTSDKFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTSDKFramework";
+			sourceTree = "<group>";
+		};
+		76CD1C7E74430D2C8C3B5F7099115FE7 /* TTFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				D869685502823740685A955800880F7F /* Normal */,
+			);
+			name = TTFFmpeg;
+			sourceTree = "<group>";
+		};
+		7A9968D416E689029B88D96FC965A987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08FE2148367BD6588E9DCD506DF1B6B /* Pods_TYMediaPlayer_Example.framework */,
+				B3871956845EEED667D18417D3B16ECD /* RangersAppLog.framework */,
+				B5C15BE2142BEBAB61FC774060FEE751 /* RangersAppLog.bundle */,
+				98316ABD798643F24A7BBB0D31E7277A /* TTSDKFramework.framework */,
+				9F5E3C35923B435FF6BBFEE8BFCAF519 /* TYMediaPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D3739979B235DDE55AA6BCB3B5DF8F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8F35913D8B6415B388B9DF8B6D49B45 /* TYMediaPlayer.modulemap */,
+				18F35A1CCAAEC7905E77D26F326CF680 /* TYMediaPlayer-dummy.m */,
+				8F6E716756945FC063CFB98DC1AC18D5 /* TYMediaPlayer-Info.plist */,
+				462F547257E547593FF6B062F265C0D0 /* TYMediaPlayer-prefix.pch */,
+				52D8CFB044B498D056B8F13444676BED /* TYMediaPlayer-umbrella.h */,
+				4550F6FF870F8F068C329DF8F4B3C9A1 /* TYMediaPlayer.debug.xcconfig */,
+				E99DD498F0E954E6BCC18C7B02655682 /* TYMediaPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYMediaPlayer";
+			sourceTree = "<group>";
+		};
+		848E8363F763223210DFB008679A7BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ADB1B499C506989F6CC90CBA8B8B1DF /* TTFFmpeg.xcframework */,
+				012F2548CEC15CFF70F6355E75839450 /* TTSDKTTFFmpegNormal.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85F743CD89EE231AF483506D4E42100B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1DB6E9ACB23524A74BF8CF2505B72 /* libRangersAppLog_CN_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9196B288C6E24CA2D8669FEDB5BB30AC /* TTSDKFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E05B0A617C1D9AC6FFDED35D422944E4 /* Core */,
+				3ACEA7F2A411C73E83E0A5A2CA858C40 /* HttpDNS */,
+				BA0EF679C925472D0A616E62E2B9467E /* Player */,
+				B06407191E89A49DF7627BF020887C28 /* PlayerCore */,
+				B266A7EDCBCE00E5781E2F92AAF3B8BF /* Reachability */,
+				BCE6675A84149A9012164F6D9B0EF0EA /* SSL */,
+				7557CA12C09B7C485795C69181EB8AC8 /* Support Files */,
+				F6C2C1DFA27A8953FF6F61DCA7BA5DF9 /* Tools */,
+				15BB9113A8B76A35600A210939BA209E /* TopSignature */,
+				76CD1C7E74430D2C8C3B5F7099115FE7 /* TTFFmpeg */,
+				48BBDFF3BB556F4F83725C0E304BA23F /* VCN */,
+				4BABCD6F1C6A06F20438CFE383FE55C8 /* VolcLog */,
+			);
+			path = TTSDKFramework;
+			sourceTree = "<group>";
+		};
+		9614096ABF786B288D74CC61373536CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41F99ACDCA170CF1D58A91EABA39AB61 /* TTSDKHttpDNS.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D67C2FD26169815453C06EE7723DF5D /* TYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				657B54266955AB22F08ABECF5158746E /* TYMediaPlayRecoredManager.swift */,
+				450D706A49D8F92792C19EBC5E0E7959 /* TYPlayer.swift */,
+				4B04D509945570642DE10F87BCB6F386 /* TYPlayerModel.swift */,
+				666E9D82DB23F9821DEA3FFE8A03894A /* TYPlayerTool.swift */,
+				D62BC56B4CF247590237FB1B9BDA131F /* TYSDKPlayerManager.swift */,
+			);
+			name = TYPlayer;
+			path = TYMediaPlayer/Classes/TYPlayer;
+			sourceTree = "<group>";
+		};
+		B06407191E89A49DF7627BF020887C28 /* PlayerCore */ = {
+			isa = PBXGroup;
+			children = (
+				15B17D72E53E8E86074FB833841D3633 /* Normal */,
+			);
+			name = PlayerCore;
+			sourceTree = "<group>";
+		};
+		B266A7EDCBCE00E5781E2F92AAF3B8BF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E0D52F3F2DA89777F7B0AC0BADF7219F /* Frameworks */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		BA0EF679C925472D0A616E62E2B9467E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A65E8AA6AC025636A1AF5D09ADC6D23C /* IVCABRBufferInfo.h */,
+				98041BC82D2D56E6DAB4D282652B6D23 /* IVCABRDeviceInfo.h */,
+				159D81202D8042E044A26E28B4A21BC2 /* IVCABRInfoListener.h */,
+				24EB56BE01C63E4CC75277D2191DB875 /* IVCABRModule.h */,
+				435335EE5A191F383E5D2E51BD215881 /* IVCABRModuleSpeedRecord.h */,
+				B9567D9FE0910AE6DAADB3483A568BCA /* IVCABRPlayStateSupplier.h */,
+				772DA5E3F2B49ADEFEF0002135BA123A /* IVCABRStream.h */,
+				3AA1024F1F2D081E4458AC439E825C81 /* IVCNetworkSpeedPredictor.h */,
+				1FBFE1AD82D4A0056D0686FAC28C9DCE /* IVCNetworkSpeedRecord.h */,
+				54C3E271148F4D417B2EFBCC55D80BD8 /* TTAVPreloaderItem.h */,
+				C487CEDCC54364643C70173EF3B4F18C /* TTSDKPlayer.h */,
+				0E80892DDD29D34262A08D63C538741C /* TTVideoCacheManager.h */,
+				4DA6B557F14B0A10BE05F0CD22DC735C /* TTVideoEngine.h */,
+				2D853D46A8D5D1F43646820756291B7B /* TTVideoEngine+AIBarrage.h */,
+				8EC2855E8143509C6944EED1B7C7B4F9 /* TTVideoEngine+AsyncInit.h */,
+				09C84E74BCE1DF3D265DC385FF9CB1BC /* TTVideoEngine+Audio.h */,
+				2276879F6DADDC49FAA5BF683F092214 /* TTVideoEngine+AutoRes.h */,
+				12A50E1A893B7EDB3DBE592CCC2D60D9 /* TTVideoEngine+BufferProcessor.h */,
+				F3B0B88C62714D4A24903A2F6142A07E /* TTVideoEngine+ConfigCenter.h */,
+				155B8CF8887F5856C104F1CE7695DB1F /* TTVideoEngine+DebugTool.h */,
+				1F95A3D0E29065B486F5E1CF6E3DE19A /* TTVideoEngine+Mask.h */,
+				5576D8335AEAD48FC0A98D34EECD461E /* TTVideoEngine+MasterPlaylist.h */,
+				7E1A246D9B0E3AA97712AA4C126E7C6D /* TTVideoEngine+MediaTrackInfo.h */,
+				D3BD430B4145AF4FF67721220A1EAE33 /* TTVideoEngine+Options.h */,
+				59D1525DA7285D399570DF2F5936D871 /* TTVideoEngine+Preload.h */,
+				B6B920949B9E90D5C99C96F0981DEE18 /* TTVideoEngine+Strategy.h */,
+				D2407B5A338DFFF8F9BC435B5CF74C83 /* TTVideoEngine+SubTitle.h */,
+				4BD357EDD862DC38835F43D93D2B993B /* TTVideoEngine+Tracker.h */,
+				4435D70C4203DA136279B26A0B8F2F0E /* TTVideoEngine+Video.h */,
+				90C254CDB0B4115BFF0D7E683EEE74F5 /* TTVideoEngine+VR.h */,
+				26878E02DA9A66AC04FFBC3A6EDBE642 /* TTVideoEngineAuthTimer.h */,
+				EEFFB3B0837A505864A4830664F857EB /* TTVideoEngineAVPlayerItemAccessLog.h */,
+				9B71373A54C07A1417A5B67901E46EDE /* TTVideoEngineAVPlayerItemAccessLogEvent.h */,
+				DA1511664DEAAF49ADFA586AF14F8C64 /* TTVideoEngineBufferProcessResult.h */,
+				807420FBBADEF5ABEF8776C0AD51C7DB /* TTVideoEngineCodecStrategyUtil.h */,
+				95175FFB7B6D2BD02F1B9B5CBED905F2 /* TTVideoEngineConfigCenter.h */,
+				C0302AF4316D447547688C6B126A9C24 /* TTVideoEngineConfigCenterHelper.h */,
+				48CAE2493E2668E8F204D1E76C1308ED /* TTVideoEngineConfigCenterProtocol.h */,
+				CD63152BE27C14DA5AA515AFEE12C1C1 /* TTVideoEngineConfigItem.h */,
+				AE08AC61DED848B3C2603BDD35DD1423 /* TTVideoEngineDebugTools.h */,
+				DC2C4F5A6FF809794D42428990D6E631 /* TTVideoEngineDebugVideoInfoBusiness.h */,
+				70DB871698A7C796E909224B974A75F8 /* TTVideoEngineDebugVideoInfoView.h */,
+				7CD825F7DC6508C3C646503C7FF64730 /* TTVideoEngineDownloader.h */,
+				C00AA3CB6D12FEAC3B0E6DD2CD947EF2 /* TTVideoEngineEnvConfig.h */,
+				BA15D461175DB1A88CB4C884EC436A58 /* TTVideoEngineEventManager.h */,
+				61089B019E903E692B793660288A31FF /* TTVideoEngineExtraInfo.h */,
+				0C3CDC4A90BAB53207BDE84F47AFE35B /* TTVideoEngineFragment.h */,
+				8139DD6512BE213A85DE6585E55D1DB5 /* TTVideoEngineHeader.h */,
+				EBF9FA76A57E487E82156E84AFDAB680 /* TTVideoEngineInfoFetcher.h */,
+				AC5BEF7289B1E8856F5900BC8A60C01C /* TTVideoEngineInfoModel.h */,
+				42F7D79AEE2BFD9B9DC195BCD0FE0069 /* TTVideoEngineKeys.h */,
+				AF241CCAD706297C9A1C398D11024057 /* TTVideoEngineLoadProgress.h */,
+				058D116902747A480F1DB5EE3B69F566 /* TTVideoEngineMaskInfo.h */,
+				889B0BBD578EA92700C3D4100F545323 /* TTVideoEngineMasterPlaylist.h */,
+				6FE6B2431ECBC27D303BC9742AB3C339 /* TTVideoEngineMediaSource.h */,
+				685ADF70FDB4F4EDDC35BC22AF620FCA /* TTVideoEngineModel.h */,
+				0A70BCD0EC58C5DB8FFF2025F9EC5DB3 /* TTVideoEngineModelDef.h */,
+				39652AE0564666C53AFEFFDC0D16C374 /* TTVideoEngineMultiEncodingUrlSource.h */,
+				143634E50CEAFCA6CB8E1FBF19C2B61F /* TTVideoEngineNetClient.h */,
+				6AFD9C3050791221E85C98A0F097D3DF /* TTVideoEngineNetworkPortraitData.h */,
+				F9E754CC86F4D78ED75AB0AC3F5CAF34 /* TTVideoEngineNetworkPredictorAction.h */,
+				AB6AE92E3291CFAED37833AC6734DE51 /* TTVideoEngineNetworkPredictorReaction.h */,
+				F4965D00CF3E45F19A18BC9C4C88A374 /* TTVideoEngineNetworkSpeedPredictorConfigModel.h */,
+				DDE9209899420F3C5C84C91E009F3B6A /* TTVideoEnginePlayerDefine.h */,
+				B7F79D8B454D67BF800D0F99D50C6827 /* TTVideoEnginePlayInfo.h */,
+				1053531DA1852817D9C39B1DCE316A18 /* TTVideoEnginePlayItem.h */,
+				240CCAB1A4382C18F0CB9A98D4168EAF /* TTVideoEnginePool.h */,
+				A6C99EB070660278595CB5CEA12F560F /* TTVideoEnginePreloader.h */,
+				E36CEDBC4EDC07D833C30887528A53A5 /* TTVideoEnginePublicProtocol.h */,
+				FC44FFB08201A85EBA9A7EB26629AC5D /* TTVideoEngineSettings.h */,
+				744A4545745B09E3E167B99137CA1A10 /* TTVideoEngineSmartUrl.h */,
+				53A14EBA9B7BFAADD987A2D01099540A /* TTVideoEngineSource.h */,
+				9F1966BEEB5F224BBC01F953CC73E047 /* TTVideoEngineStrategy.h */,
+				9D49B215A2F08883AC5B1E878601CB35 /* TTVideoEngineStrategyABRConfig.h */,
+				BC39F606FA1F9013F0C7412590E516DB /* TTVideoEngineStrategyDataSource.h */,
+				D4B6FC0ADBD27E9F7577F2434C323903 /* TTVideoEngineStrategyMedia.h */,
+				1FE66B10F81E19360C3E18832E146C3A /* TTVideoEngineStrategyPreloadConfig.h */,
+				52BBC0895ED4BA32ED3CAF71D337249F /* TTVideoEngineStrategyScene.h */,
+				753A1F26EBBF14B401A3F561841591F6 /* TTVideoEngineThumbInfo.h */,
+				28419A607D61F801B316FA45AA7EAF19 /* TTVideoEngineUrlSource.h */,
+				86655E5FE929DF8EBFE7405EE692E428 /* TTVideoEngineUtil.h */,
+				8CD0EE5E5A2855D1C13BF7FA34CB4969 /* TTVideoEngineVideoInfo.h */,
+				9C96AF9476DB7D075ECC9947C2EEE27E /* TTVideoEngineVideoModelSource.h */,
+				16F2012E7573BA37106D5634C8A6D8D8 /* TTVideoEngineVidSource.h */,
+				F602EB2413AA3E618939691FC40F84C5 /* TTVideoEngineVRAction.h */,
+				83262EE647B8599E2406E201376D1510 /* TTVideoEngineVRModel.h */,
+				89D861BAAE6D46BA08FA9CB68EE3DC24 /* TTVideoEngineVRReaction.h */,
+				4EAAE4F4C62B9F52A62C0391D2D19795 /* TTVideoPreloader.h */,
+				964F4514EFB87642EEA82CDF6E0505FA /* VCABRAudioStream.h */,
+				7D540B4B4C2871A0914BAC4E3578BD0E /* VCABRBufferInfo.h */,
+				C56694366D10DCECADF47CA841F808E2 /* VCABRConfig.h */,
+				11E6AD79AD30A38326F9A7562A682A5C /* VCABRDeviceInfo.h */,
+				F3BA944932758D2AF32C05E2394EF8BF /* VCABRResult.h */,
+				DBBC944A1A2D8DD3D1B3E4232D5BF519 /* VCABRResultElement.h */,
+				D24DF19279F96DAA0F0892FDE9E8CC8E /* VCABRVideoStream.h */,
+				79A1A00B03FF310B71A2B8FD2C8523BF /* VCNetworkSpeedRecord.h */,
+				417D3548A83580F876314C8D57C61309 /* VCStrategyMedia.h */,
+				6FFFF11F1D309A1AC8C7D3177D6F2659 /* VCVodStrategyManager.h */,
+				44C48A7CEC4EE062E948BE2339D0557B /* VodSettingsConfigEnv.h */,
+				BDC05A0D893486B0F63EAAD7335F59BC /* VodSettingsDefine.h */,
+				D6F8F266CC632A919A36E3D418EEDE13 /* VodSettingsFetcher.h */,
+				D79F9A32FEEE504F91A23C4241D73BB2 /* VodSettingsFetcherUtils.h */,
+				605779451F01909C85E6C4B01036F92C /* VodSettingsHeader.h */,
+				51A1873166F30BD7FEF5DED6BD83EFCE /* VodSettingsManager.h */,
+				3A5E89AA91955F77D460786386E37A5E /* VodSettingsNetProtocol.h */,
+				E60EBE9FE84EF99CDEB3A5F25D12E412 /* VodSettingsStorage.h */,
+				1B17424994014DAAB02ACF443ABD599C /* Frameworks */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		BA6D96BA9ACBE2CB14558B26E6738237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90145D1F83CE6E6E231793EB2C65780 /* ttboringssl.xcframework */,
+				EBC85D860B2D7E0B003A4879D3EE5EBE /* ttcrypto.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE6675A84149A9012164F6D9B0EF0EA /* SSL */ = {
+			isa = PBXGroup;
+			children = (
+				BA6D96BA9ACBE2CB14558B26E6738237 /* Frameworks */,
+			);
+			name = SSL;
+			sourceTree = "<group>";
+		};
+		C82793930535166CC5CE300794506BF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21F70F43A0978589BA5E4B002F834CC /* libRangersAppLog_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0A387927A3AEF57EAAC4C89BD194E7FB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47F7585277E825256ED215E769BCE012 /* Pods */,
+				7A9968D416E689029B88D96FC965A987 /* Products */,
+				F4F636D9B095980EF77B1FD71A4A1F45 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1AD037EB2162EA7EBCC811F6BEF605F /* VOLC */ = {
+			isa = PBXGroup;
+			children = (
+				AD2643FC01963739697544AEAED72325 /* BDAutoTrackEncryptor.h */,
+				FF615FDCA12F54AB74B4612D7D762A7D /* Frameworks */,
+			);
+			name = VOLC;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D844289AF00E0D220260ADE009DCE521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B31C3D1F58536D256BBCDEE53089EBBB /* libvcn.xcframework */,
+				055FB6E363E5C41A2EBE6285786ECA8D /* TTSDKVCN.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D869685502823740685A955800880F7F /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				848E8363F763223210DFB008679A7BC7 /* Frameworks */,
+			);
+			name = Normal;
+			sourceTree = "<group>";
+		};
+		E05B0A617C1D9AC6FFDED35D422944E4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FE836DB896A3ED03D9FD95038CA84062 /* TTSDKCore.h */,
+				7D4007BB70027E99DD64F6C41137FDB7 /* TTSDKFramework.h */,
+				7348B2197DF968D146A1BF1FEA5A2046 /* TTSDKFramework_Dummy.m */,
+				B4DDF454451D6CA87DE1EB593B6085C0 /* TTSDKManager.h */,
+				0F7389D1EE4ED8B0D75A1EC42BC1EECF /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E0D52F3F2DA89777F7B0AC0BADF7219F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB4D08C98A7BC75A3B38D5317AEBCF35 /* TTSDKReachability.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E608FB02C35397D8E182868A66C2A132 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				441C55B135059FD4BD65ACB07CF515D4 /* processor.metallib */,
+				1F5B4DD278AD1AB17AB6EEC4BCBFAAA9 /* ttplayer.metallib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E60C8BBEA9B224D7BFD08BE4F3AB823A /* CN */ = {
+			isa = PBXGroup;
+			children = (
+				E4AF65753104D80D2F6525987C09E6D4 /* BDAutoTrackURLHostItemCN.h */,
+				85F743CD89EE231AF483506D4E42100B /* Frameworks */,
+			);
+			name = CN;
+			sourceTree = "<group>";
+		};
+		F182A665A0039839E3859E1B47297DDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA7D3E944F466E9A3CE6F6389067C719 /* h5bridge-wkwebview.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4F636D9B095980EF77B1FD71A4A1F45 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FCCB87FFF3B721C86895238660E5AA /* Pods-TYMediaPlayer_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5FCCB87FFF3B721C86895238660E5AA /* Pods-TYMediaPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED5630D14D6EEFB1746FD54729573376 /* Pods-TYMediaPlayer_Example.modulemap */,
+				4E4F4A22F1D5C1EAE6BB7E4DFBCC2CDE /* Pods-TYMediaPlayer_Example-acknowledgements.markdown */,
+				6B2CF630DB90FFD93696FBBA95461046 /* Pods-TYMediaPlayer_Example-acknowledgements.plist */,
+				9B34386D6CD8F1585A7F34C405F16CCD /* Pods-TYMediaPlayer_Example-dummy.m */,
+				85D2C2640887B8269A83E3B5E25892D9 /* Pods-TYMediaPlayer_Example-frameworks.sh */,
+				E185C67700B6DE63FEFFD9FB7DCE02E3 /* Pods-TYMediaPlayer_Example-Info.plist */,
+				35D9F9E761AC31FB0D0E85AECAD4C2D1 /* Pods-TYMediaPlayer_Example-resources.sh */,
+				4991FC7DA395CE9DFD2D515A6629C258 /* Pods-TYMediaPlayer_Example-umbrella.h */,
+				9896E9DFC648F3CD4420B0B955830C1B /* Pods-TYMediaPlayer_Example.debug.xcconfig */,
+				70986A8C41224EA93217D60E0BCAEE32 /* Pods-TYMediaPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-TYMediaPlayer_Example";
+			path = "Target Support Files/Pods-TYMediaPlayer_Example";
+			sourceTree = "<group>";
+		};
+		F6C2C1DFA27A8953FF6F61DCA7BA5DF9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FC0F01F36F311CBA65FCFF345B0F80A0 /* Frameworks */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		FC0F01F36F311CBA65FCFF345B0F80A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				716F5D2F262124FBE77F7EE2B55D218B /* TTSDKTools.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF615FDCA12F54AB74B4612D7D762A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25A555DB51416F1BA8B030A36041D67 /* libRangersAppLog_VOLC_awesome_ios.a */,
+				B42AB437CFFB0751CCED58D4E60248F9 /* VolcEngineEncryptor.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BDF310527BFF4EFA669399FB5B19D3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC40B1F585BC863C3F0A0B95321EA09 /* av_audio_wrapper.h in Headers */,
+				4B43AC3EAF3DAB7E8C74DB617F684923 /* av_nativetrait.h in Headers */,
+				A710184F4D441B1ABBC318C6A983B723 /* IVCABRBufferInfo.h in Headers */,
+				6C2216CDD0CAC5465E1C438E9EBE5430 /* IVCABRDeviceInfo.h in Headers */,
+				09F62BE12F0B268842B9A7C1AD21A3C0 /* IVCABRInfoListener.h in Headers */,
+				46932C244AB2A79A6B6210B47574496C /* IVCABRModule.h in Headers */,
+				53F95C384835ABDEF23AF0991AD15B0B /* IVCABRModuleSpeedRecord.h in Headers */,
+				042EDD48B8FBCAD95576F4F716CDFFA6 /* IVCABRPlayStateSupplier.h in Headers */,
+				5E4465732E8F492EAA775A0FBC53C71D /* IVCABRStream.h in Headers */,
+				286FD1A36C3DCA492C5C60A1A6EE2262 /* IVCNetworkSpeedPredictor.h in Headers */,
+				E1C9CCBC6D1A844FE94F91918FA7E976 /* IVCNetworkSpeedRecord.h in Headers */,
+				60F3AD893C64159271803E242EDCB448 /* TTAVPlayerLoadControlInterface.h in Headers */,
+				46D99ED85D8F3C02494A21AB23096602 /* TTAVPlayerMaskInfoInterface.h in Headers */,
+				15A507C29DB5DD2276B76538A3BA4453 /* TTAVPreloaderItem.h in Headers */,
+				4253AA4980504E34D97C74A30D7DF45D /* TTAVTraitObject.h in Headers */,
+				6BB5676B5DE99169CDC2BC46E9A75909 /* TTPlayerDef.h in Headers */,
+				A21BD333D6AD11113DFF0B4DFC3DA2FD /* TTSDKCore.h in Headers */,
+				CD9CC3B6F6D912B8C6B828E5DCBE0883 /* TTSDKFramework.h in Headers */,
+				74EE8A9337FA052D533A0FA42580F6F9 /* TTSDKFramework-umbrella.h in Headers */,
+				264168B7BE5C195735921D62161B3699 /* TTSDKManager.h in Headers */,
+				C1459ADEAAD3A4F93D44DC6808A88BF1 /* TTSDKPlayer.h in Headers */,
+				3ABA2A8734361C976C0D490B0E549719 /* TTSDKPlayerCoreNormal.h in Headers */,
+				08F3F23ECD444584F0D5099FBB1FC0D9 /* TTStreamInfo.h in Headers */,
+				E101950D33894C2510F0E5302CF01CC7 /* TTVideoCacheManager.h in Headers */,
+				B87BF073CB6ABF0CBFEE6274542F1753 /* TTVideoEngine.h in Headers */,
+				127EF84D4ACDE45421DCA632AFF02450 /* TTVideoEngine+AIBarrage.h in Headers */,
+				47E3413542E5BAAC7394BA1EA33B850C /* TTVideoEngine+AsyncInit.h in Headers */,
+				BD522043C992696AC3F1C89DA1AF62A3 /* TTVideoEngine+Audio.h in Headers */,
+				305C3DC25302EE7863378D18542E72D9 /* TTVideoEngine+AutoRes.h in Headers */,
+				EBD7C3AFF6E98C6F2EC65EE0BEE20049 /* TTVideoEngine+BufferProcessor.h in Headers */,
+				17224F94EC59D1432C5EB97CB49B2E46 /* TTVideoEngine+ConfigCenter.h in Headers */,
+				ADF4981C88E144E9B8193B11E744E000 /* TTVideoEngine+DebugTool.h in Headers */,
+				4AF38EF345084F916BA827D90B9DB1EB /* TTVideoEngine+Mask.h in Headers */,
+				6B21AA402F2E889FEB703BD23D14587D /* TTVideoEngine+MasterPlaylist.h in Headers */,
+				766DC8173B03F57343F56445E54F9B5B /* TTVideoEngine+MediaTrackInfo.h in Headers */,
+				81E6F408614ABDCA9636EA29B90B7834 /* TTVideoEngine+Options.h in Headers */,
+				F6E5F3ADF875BC9D31FCD1EB7B8157A5 /* TTVideoEngine+Preload.h in Headers */,
+				A45B6AFABC39FE72EB0148BDA3A12142 /* TTVideoEngine+Strategy.h in Headers */,
+				EBC5215477EAEE926944C18B8BDA437D /* TTVideoEngine+SubTitle.h in Headers */,
+				7140C55980A504E5910622B0C111BEB4 /* TTVideoEngine+Tracker.h in Headers */,
+				34F5BC7C9CC2D5ABF410CE24BF018AB1 /* TTVideoEngine+Video.h in Headers */,
+				03B72DCE2685F0E449B40DF6B59966DB /* TTVideoEngine+VR.h in Headers */,
+				20D452A049F23AFFF60864AC828A902F /* TTVideoEngineAuthTimer.h in Headers */,
+				1190014B804A7FDFC7A5B5DB72607E84 /* TTVideoEngineAVPlayerItemAccessLog.h in Headers */,
+				4CC83C08FE8DEFA53D6C96030B7A22F6 /* TTVideoEngineAVPlayerItemAccessLogEvent.h in Headers */,
+				411A7E4D96B069C5FDFFD684A7F09226 /* TTVideoEngineBufferProcessResult.h in Headers */,
+				E36C9D79BBF2D2A12403C5D7E0BB3519 /* TTVideoEngineCodecStrategyUtil.h in Headers */,
+				4E63339CF2880D6B8E993A46FB5DA825 /* TTVideoEngineConfigCenter.h in Headers */,
+				D6BE86149E58A7DFACB83FB705DAD7A5 /* TTVideoEngineConfigCenterHelper.h in Headers */,
+				87949A9DE17330A2B5082788E15CBE6B /* TTVideoEngineConfigCenterProtocol.h in Headers */,
+				49350875C75788F16944B93D78873434 /* TTVideoEngineConfigItem.h in Headers */,
+				076922FDB74593E1BAE62DBE1D53A73C /* TTVideoEngineDebugTools.h in Headers */,
+				9DC4EFA8F768505968314B157461D4E2 /* TTVideoEngineDebugVideoInfoBusiness.h in Headers */,
+				AFD8419EE1DB31438730A9AA0A1CE4B5 /* TTVideoEngineDebugVideoInfoView.h in Headers */,
+				A12DC2E5D199D0D86606D7DF21E24BCD /* TTVideoEngineDownloader.h in Headers */,
+				3E68C663005B2E79CD207A2FD8A5D306 /* TTVideoEngineEnvConfig.h in Headers */,
+				9A923BE2BFD309E58AE7C0CE55FE65E9 /* TTVideoEngineEventManager.h in Headers */,
+				7AE19C863AE45F4B275AE67EE043439E /* TTVideoEngineExtraInfo.h in Headers */,
+				97D4D32B11FC03496EBCCE082299D906 /* TTVideoEngineFragment.h in Headers */,
+				48EA2F5EF7A383F8261B5B02A027BBC9 /* TTVideoEngineHeader.h in Headers */,
+				7242C40C3E80DEBD29A4E521197C0C50 /* TTVideoEngineInfoFetcher.h in Headers */,
+				3A70555F3191189B34981E9EAFA33AD9 /* TTVideoEngineInfoModel.h in Headers */,
+				29BACBD51B47A204B9DCC431FEB29C99 /* TTVideoEngineKeys.h in Headers */,
+				C4A57A5318191078177F7560680C3E26 /* TTVideoEngineLoadProgress.h in Headers */,
+				6F38931891C3F17F9C7DE967D7285A65 /* TTVideoEngineMaskInfo.h in Headers */,
+				DD135BD80DD431A67C62D9A5C3CD5E63 /* TTVideoEngineMasterPlaylist.h in Headers */,
+				E1B6AD834DAD4B1C9A50A250A3482CDE /* TTVideoEngineMediaSource.h in Headers */,
+				3AE5C08CE0063F5C01C724FEF0FF3D95 /* TTVideoEngineModel.h in Headers */,
+				152EDA87BB787481BC28B6F896A6578E /* TTVideoEngineModelDef.h in Headers */,
+				9F0E2CFC7D8E1F0923260B9214CDDEF2 /* TTVideoEngineMultiEncodingUrlSource.h in Headers */,
+				A4F0D892DE036CBEB5409A48A7E3086B /* TTVideoEngineNetClient.h in Headers */,
+				40868113F18B60CC326778BC62E99393 /* TTVideoEngineNetworkPortraitData.h in Headers */,
+				784758A2D758EC55F4B196A9A37CE331 /* TTVideoEngineNetworkPredictorAction.h in Headers */,
+				6392C4915065436A42995738516A0460 /* TTVideoEngineNetworkPredictorReaction.h in Headers */,
+				6575FA7605412B920F0BFD99BDC5E475 /* TTVideoEngineNetworkSpeedPredictorConfigModel.h in Headers */,
+				0391EA0839F1FA88FD24ACF518E04C4F /* TTVideoEnginePlayerDefine.h in Headers */,
+				BED5C0285975953AA8AF73611773A113 /* TTVideoEnginePlayInfo.h in Headers */,
+				D444A51E54590F4FF2C65D4913D4CC82 /* TTVideoEnginePlayItem.h in Headers */,
+				AD6ACC529CCF1C8D24D9A765735C45A8 /* TTVideoEnginePool.h in Headers */,
+				EC94B05273F3522EC198C0B30B7CC70A /* TTVideoEnginePreloader.h in Headers */,
+				038ED878E11E2064721150E34F95DFF0 /* TTVideoEnginePublicProtocol.h in Headers */,
+				3CFF1407982991169F2D016BF8C76D44 /* TTVideoEngineSettings.h in Headers */,
+				5406901CC453CD532F92B99C3B620BF5 /* TTVideoEngineSmartUrl.h in Headers */,
+				5D874D61CE6A656176080A8D9F9EFADE /* TTVideoEngineSource.h in Headers */,
+				63C6327E310826AFD4919784055F7D17 /* TTVideoEngineStrategy.h in Headers */,
+				5FFCFE95289A871B33D57B1AA0138A33 /* TTVideoEngineStrategyABRConfig.h in Headers */,
+				47F80D0C33D594894125FA5060815093 /* TTVideoEngineStrategyDataSource.h in Headers */,
+				68559AF7DDC302F6DB3E95CF5C05FE20 /* TTVideoEngineStrategyMedia.h in Headers */,
+				6E81F3803D727A5E25D847CCC44A0C63 /* TTVideoEngineStrategyPreloadConfig.h in Headers */,
+				E48DD45629B0C7996048F6E66D6FCF79 /* TTVideoEngineStrategyScene.h in Headers */,
+				D4BB9D43A24E62163A81D5E590AAEBFE /* TTVideoEngineThumbInfo.h in Headers */,
+				520575B621EC3239DA02C131AEEF16F3 /* TTVideoEngineUrlSource.h in Headers */,
+				EC44D53BB4767E263262FADDB733B128 /* TTVideoEngineUtil.h in Headers */,
+				E1AFA76E8D704E3170980229DC73DDA8 /* TTVideoEngineVideoInfo.h in Headers */,
+				BFEAACDFC80BB71A8B8D3719CC7BB44D /* TTVideoEngineVideoModelSource.h in Headers */,
+				05FD45AE6BAC8A76CBDDB25E0800BDC3 /* TTVideoEngineVidSource.h in Headers */,
+				EE969F9015FD2392E1EC4A5B7706803E /* TTVideoEngineVRAction.h in Headers */,
+				AAECFA05EE7472A2BBC249E681E5C7A5 /* TTVideoEngineVRModel.h in Headers */,
+				F389CAC2302780343F1D4C372C270590 /* TTVideoEngineVRReaction.h in Headers */,
+				C4043D614DA5C88339482051010E5F0C /* TTVideoPreloader.h in Headers */,
+				899C0CEADF303C229B0F4DF30CB947DA /* VCABRAudioStream.h in Headers */,
+				1DBD89D4DDA7962D9E463EEE89F87081 /* VCABRBufferInfo.h in Headers */,
+				95DC6DBB63825F00935C4901AB1DA621 /* VCABRConfig.h in Headers */,
+				101E1DC13B91F10FDAC69EC8729F06DB /* VCABRDeviceInfo.h in Headers */,
+				13664ED143A13B93E839EC013CD292B0 /* VCABRResult.h in Headers */,
+				2A2A0DD95800AB6CD61DD9F7C08107FB /* VCABRResultElement.h in Headers */,
+				75A9B456641801C1BBC77028C7433F60 /* VCABRVideoStream.h in Headers */,
+				E0AFA175CF9E9CA5B96C0E2444BDC6E6 /* VCNetworkSpeedRecord.h in Headers */,
+				A91C919441F051614BD63D2C9E6DDAAE /* VCStrategyMedia.h in Headers */,
+				D2E36F45DE8E10EFF415EC7D7B2B69F7 /* VCVodStrategyManager.h in Headers */,
+				C55E6A8CDF486D3237F2F0B2B28E277B /* VodSettingsConfigEnv.h in Headers */,
+				7A358FFA5ED203F1A0CC13A5B20C344A /* VodSettingsDefine.h in Headers */,
+				7187267B5AE219F71D956C2DC90CDB15 /* VodSettingsFetcher.h in Headers */,
+				9E5C384F85BE497C18A1F8DC235927AD /* VodSettingsFetcherUtils.h in Headers */,
+				E0A279C9C1DCE51A48354B3E8B583C43 /* VodSettingsHeader.h in Headers */,
+				EB7E9E8F1CAEC5FD52D2BCBF5EDE4BC7 /* VodSettingsManager.h in Headers */,
+				C43A20B0A672B70C7FF2C52BCA383B9C /* VodSettingsNetProtocol.h in Headers */,
+				40E40C3D84D9F3C17B2E1A7DCD0815FA /* VodSettingsStorage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B526C89934ECDB21B73C7B8BC65DF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B4686341FA4C0224250DCE8732C3E /* FPPlayer.h in Headers */,
+				11F65D14301B6B23870DB1F441F5FE49 /* FPPlayerMediaPlayback.h in Headers */,
+				3BE2F90E5525938DEA7FC1544A741114 /* FPPlayerViewDefinitions.h in Headers */,
+				10186A5EBE5B07A276D1BBF336642D89 /* TYMediaPlayer.h in Headers */,
+				4E7E8C4A827820B95E2F4478CB0322F6 /* TYMediaPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52229CDED368D377290644436EFE9E9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FE27276386C7C09723CFBC5D19396E /* Pods-TYMediaPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66959524F18BAFE70ED2716BBC12153 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244FAE99A890AD4E25FFF7A74422796F /* BDAutoTrack.h in Headers */,
+				854FD24F998757F5BAEE05CED7E925B1 /* BDAutoTrack+Extension.h in Headers */,
+				480CD29E8B31105C5D13A2D5F6E5AADF /* BDAutoTrack+LaunchFrom.h in Headers */,
+				D8570186D02B03B6391DFF8B8DBA82A4 /* BDAutoTrack+Profile.h in Headers */,
+				D593F40ABD82395F3B48396EBEF35A79 /* BDAutoTrack+SharedInstance.h in Headers */,
+				74723D91AD591BF4AEE2CCB51CBA080B /* BDAutoTrack+Special.h in Headers */,
+				26DD3A736CECA19FA91E65099A2A86C6 /* BDAutoTrackAlinkRouting.h in Headers */,
+				F72765D7955370AFCA3914F87711E509 /* BDAutoTrackCacheRemover.h in Headers */,
+				224E05F12E754A2270E4655E77C71E3C /* BDAutoTrackConfig.h in Headers */,
+				8EBF12C67F9D5EC2B1E0669E01438602 /* BDAutoTrackConfig+AppLog.h in Headers */,
+				BC884190C2D85A962120E00D10FAC26B /* BDAutoTrackConfig+BDroneMonitor.h in Headers */,
+				692FD68384673BCB263AFA2B74C29102 /* BDAutoTrackEncryptionDelegate.h in Headers */,
+				8D645C8BAEA323C2DDF166B763D78D63 /* BDAutoTrackEncryptor.h in Headers */,
+				5A43AC3C7111161EA38906A6A31D856A /* BDAutoTrackNotifications.h in Headers */,
+				BD5F0C1897ACDC97F3E8325F00A58EDA /* BDAutoTrackSchemeHandler.h in Headers */,
+				AB3F4757665655C0359AA35FFA0AD1F2 /* BDAutoTrackURLHostItemCN.h in Headers */,
+				B9F225ED9C5AE79CFE5B047119A1E528 /* BDCommonDefine.h in Headers */,
+				174EB4C45A1C2069D875D9FE3A8D2F57 /* BDCommonEnumDefine.h in Headers */,
+				A69A755B1AFD74DE4FFC6C9B6F59F467 /* RangersAppLog.h in Headers */,
+				61A537B7DBC63129BCCD3CAF07296689 /* RangersAppLog-umbrella.h in Headers */,
+				E1B181E6B246FF084E04924C9B616C34 /* RangersAppLogCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5620AD141C2F01A37D0588EE638812FB /* TTSDKFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7562D3BF8F0B200968FAFC853680C2FF /* Build configuration list for PBXNativeTarget "TTSDKFramework" */;
+			buildPhases = (
+				0BDF310527BFF4EFA669399FB5B19D3E /* Headers */,
+				956962EBCDB109F8C0223135A29B6157 /* [CP] Copy XCFrameworks */,
+				A0ECA78BCB6EAFD7AAF7418251216A66 /* Sources */,
+				CBDDECCC31D7847D020A90E8AD4D390B /* Frameworks */,
+				E9EBA7EF489FC6335A1B307BF9AB119E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD74CAB62717A3F600FE014F4C0EBC69 /* PBXTargetDependency */,
+			);
+			name = TTSDKFramework;
+			productName = TTSDKFramework;
+			productReference = 98316ABD798643F24A7BBB0D31E7277A /* TTSDKFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7309BEC62178A076A15A53B5BBCFE773 /* RangersAppLog-RangersAppLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB02263999FCDDD53CA5B130ED15DBC /* Build configuration list for PBXNativeTarget "RangersAppLog-RangersAppLog" */;
+			buildPhases = (
+				F7FD082C6520281274C9C76224ED9A03 /* Sources */,
+				EB0EDD81E78373E68A81978BE2D6F8E8 /* Frameworks */,
+				C6B8CC6C22E2EF189EE74F3ABC60371D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RangersAppLog-RangersAppLog";
+			productName = RangersAppLog;
+			productReference = B5C15BE2142BEBAB61FC774060FEE751 /* RangersAppLog.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9F455D513636880CE60ACF0742B45C7A /* Pods-TYMediaPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D076D1D191FB7082AF1896D695764BD /* Build configuration list for PBXNativeTarget "Pods-TYMediaPlayer_Example" */;
+			buildPhases = (
+				52229CDED368D377290644436EFE9E9A /* Headers */,
+				10C12CDDF7CF1476EE5EA36943088885 /* Sources */,
+				60FFF6FCA29B0438D0E0F9839AC3DB61 /* Frameworks */,
+				831EE74F3257CB765D984E208345411D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472EC278BC5BFA8D3BFBBA746CA9D490 /* PBXTargetDependency */,
+				F5CD70D9CFAC7BFEF388D69C9D345FBC /* PBXTargetDependency */,
+				6D2521D396E53F177FA7FD149D86E8D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYMediaPlayer_Example";
+			productName = Pods_TYMediaPlayer_Example;
+			productReference = F08FE2148367BD6588E9DCD506DF1B6B /* Pods_TYMediaPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A001AD04E0DD94DF897A4E6622EB225F /* TYMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28F634FC021386534BFE8EB4F4AFCB7 /* Build configuration list for PBXNativeTarget "TYMediaPlayer" */;
+			buildPhases = (
+				29B526C89934ECDB21B73C7B8BC65DF7 /* Headers */,
+				60E29A19654742FD5A034ECBF8F18CD1 /* Sources */,
+				3D68CE88F1608866396FA09D5D84F0DE /* Frameworks */,
+				3331E9FCA434B75B6FA5E1AE72892444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3869F9E6F636A24809B8E8D51D63F666 /* PBXTargetDependency */,
+			);
+			name = TYMediaPlayer;
+			productName = TYMediaPlayer;
+			productReference = 9F5E3C35923B435FF6BBFEE8BFCAF519 /* TYMediaPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF937598E444D6152D9CA2A472767ED9 /* RangersAppLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BA181BB338CCEF0EDB83735BBC8CD4 /* Build configuration list for PBXNativeTarget "RangersAppLog" */;
+			buildPhases = (
+				B66959524F18BAFE70ED2716BBC12153 /* Headers */,
+				707D87961941712DDF5A8F7124D55F93 /* [CP] Copy XCFrameworks */,
+				4C0F3409C5B7A6DA616104543015670A /* Sources */,
+				8754AEADAA7A93A0B9D0D315E6B5251B /* Frameworks */,
+				9C03BF8A8B428A0B68A28E529B22C5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBEA6CA4B58217840DC8CC77342640C6 /* PBXTargetDependency */,
+			);
+			name = RangersAppLog;
+			productName = RangersAppLog;
+			productReference = B3871956845EEED667D18417D3B16ECD /* RangersAppLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7A9968D416E689029B88D96FC965A987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F455D513636880CE60ACF0742B45C7A /* Pods-TYMediaPlayer_Example */,
+				AF937598E444D6152D9CA2A472767ED9 /* RangersAppLog */,
+				7309BEC62178A076A15A53B5BBCFE773 /* RangersAppLog-RangersAppLog */,
+				5620AD141C2F01A37D0588EE638812FB /* TTSDKFramework */,
+				A001AD04E0DD94DF897A4E6622EB225F /* TYMediaPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3331E9FCA434B75B6FA5E1AE72892444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831EE74F3257CB765D984E208345411D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C03BF8A8B428A0B68A28E529B22C5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B8CC6C22E2EF189EE74F3ABC60371D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA5FAA5B1B3B0CFEAF337BF06F00CE4 /* h5bridge-wkwebview.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EBA7EF489FC6335A1B307BF9AB119E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		707D87961941712DDF5A8F7124D55F93 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/RangersAppLog/RangersAppLog-xcframeworks.sh",
+				"${PODS_ROOT}/RangersAppLog/BDAutoTracker/Classes/Encryptor/Volc/Vendor/VolcEngineEncryptor.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RangersAppLog/Encryptor/VOLC/VolcEngineEncryptor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/RangersAppLog/RangersAppLog-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956962EBCDB109F8C0223135A29B6157 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/TTSDKFramework/TTSDKFramework-xcframeworks.sh",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKCore/TTSDKCore.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKHttpDNS/TTSDKHttpDNS.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKPlayer/TTSDKPlayer.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKPlayerCoreNormal/TTSDKPlayerCoreNormal.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKReachability/TTSDKReachability.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKSSL/ttboringssl.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKSSL/ttcrypto.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKTTFFmpegNormal/TTFFmpeg.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKTTFFmpegNormal/TTSDKTTFFmpegNormal.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKTools/TTSDKTools.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKTopSignature/TTSDKTopSignature.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKVCN/libvcn.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKVCN/TTSDKVCN.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKVolcLog/TTSDKVolcLog.xcframework",
+				"${PODS_ROOT}/TTSDKFramework/TTSDKFramework/TTSDKVolcLog/VolcBaseLog.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Core/TTSDKCore.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/HttpDNS/TTSDKHttpDNS.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Player/TTSDKPlayer.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/PlayerCore/Normal/TTSDKPlayerCoreNormal.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Reachability/TTSDKReachability.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/SSL/ttboringssl.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/SSL/ttcrypto.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/TTFFmpeg/Normal/TTFFmpeg.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/TTFFmpeg/Normal/TTSDKTTFFmpegNormal.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/Tools/TTSDKTools.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/TopSignature/TTSDKTopSignature.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VCN/libvcn.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VCN/TTSDKVCN.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VolcLog/TTSDKVolcLog.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TTSDKFramework/VolcLog/VolcBaseLog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TTSDKFramework/TTSDKFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C12CDDF7CF1476EE5EA36943088885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823765F53D0180AA78DF78A18C1D3E40 /* Pods-TYMediaPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0F3409C5B7A6DA616104543015670A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9866D5C5CC858A3F2277A415F1463C /* RangersAppLog-bitdummy.m in Sources */,
+				41B9F76EA3A6198D96533768C4C6CC21 /* RangersAppLog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E29A19654742FD5A034ECBF8F18CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F85D97DB76E635AA0C3D5C34A597A08 /* FPPlayer.m in Sources */,
+				783AE719595B6E06DECD3886751D854B /* TYMediaPlayer-dummy.m in Sources */,
+				F17C6E316D14A3CDE56A09270F2116B5 /* TYMediaPlayRecoredManager.swift in Sources */,
+				2989C7CF90F5ABC0A059564A733D020D /* TYPlayer.swift in Sources */,
+				01F18D354A11B202BA7895258D6436BC /* TYPlayerModel.swift in Sources */,
+				58776B78D286A9D61DF97F32BCA67EE2 /* TYPlayerTool.swift in Sources */,
+				188C1DD370FDDDBB36DB50D5B721B254 /* TYSDKPlayerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ECA78BCB6EAFD7AAF7418251216A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB2070344A2591D192FF18C040B8EC9 /* TTSDKFramework-dummy.m in Sources */,
+				90EAF31F61010EEE8E597D4E57495953 /* TTSDKFramework_Dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD082C6520281274C9C76224ED9A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3869F9E6F636A24809B8E8D51D63F666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTSDKFramework;
+			target = 5620AD141C2F01A37D0588EE638812FB /* TTSDKFramework */;
+			targetProxy = A93B6DF389F88F916CF3B1E740F784A1 /* PBXContainerItemProxy */;
+		};
+		472EC278BC5BFA8D3BFBBA746CA9D490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangersAppLog;
+			target = AF937598E444D6152D9CA2A472767ED9 /* RangersAppLog */;
+			targetProxy = 84A780C9DF9E15A50A8E26077B3CDE5B /* PBXContainerItemProxy */;
+		};
+		6D2521D396E53F177FA7FD149D86E8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYMediaPlayer;
+			target = A001AD04E0DD94DF897A4E6622EB225F /* TYMediaPlayer */;
+			targetProxy = 4398B43328A1528AA2C8D349BA130B0A /* PBXContainerItemProxy */;
+		};
+		AD74CAB62717A3F600FE014F4C0EBC69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangersAppLog;
+			target = AF937598E444D6152D9CA2A472767ED9 /* RangersAppLog */;
+			targetProxy = F396F160FBB2DFF018A5C107D2460606 /* PBXContainerItemProxy */;
+		};
+		DBEA6CA4B58217840DC8CC77342640C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RangersAppLog-RangersAppLog";
+			target = 7309BEC62178A076A15A53B5BBCFE773 /* RangersAppLog-RangersAppLog */;
+			targetProxy = E69C826185A56D074B42037BDDAB338A /* PBXContainerItemProxy */;
+		};
+		F5CD70D9CFAC7BFEF388D69C9D345FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTSDKFramework;
+			target = 5620AD141C2F01A37D0588EE638812FB /* TTSDKFramework */;
+			targetProxy = 05051780D31D9813A26953F484940BCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1906A11CF37FEB4E2435BEB50DDDD097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BC51F66737431C5F58DBA552D3D112 /* TTSDKFramework.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TTSDKFramework/TTSDKFramework-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TTSDKFramework/TTSDKFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TTSDKFramework/TTSDKFramework.modulemap";
+				PRODUCT_MODULE_NAME = TTSDKFramework;
+				PRODUCT_NAME = TTSDKFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3744AC5046B546EB14DD8743FAEEA842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3242C113054271D05E7676750F72D0A7 /* TTSDKFramework.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TTSDKFramework/TTSDKFramework-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TTSDKFramework/TTSDKFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TTSDKFramework/TTSDKFramework.modulemap";
+				PRODUCT_MODULE_NAME = TTSDKFramework;
+				PRODUCT_NAME = TTSDKFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FD7BE98533B8E84C533CE926184B916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9896E9DFC648F3CD4420B0B955830C1B /* Pods-TYMediaPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EA2FEA07880493CE3E07D7AF11497A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70986A8C41224EA93217D60E0BCAEE32 /* Pods-TYMediaPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYMediaPlayer_Example/Pods-TYMediaPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A8E1ABB7A3177C6D4B18B90ADE0F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99DD498F0E954E6BCC18C7B02655682 /* TYMediaPlayer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TYMediaPlayer/TYMediaPlayer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TYMediaPlayer/TYMediaPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TYMediaPlayer/TYMediaPlayer.modulemap";
+				PRODUCT_MODULE_NAME = TYMediaPlayer;
+				PRODUCT_NAME = TYMediaPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3ED6CA41A2F00E0BD46154E2D776416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3991AB99A7672C750DACFB228AC17081 /* RangersAppLog.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/RangersAppLog/RangersAppLog-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/RangersAppLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RangersAppLog/RangersAppLog.modulemap";
+				PRODUCT_MODULE_NAME = RangersAppLog;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8176E4C98A5F9FE6F5D12E3BAEF8871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4550F6FF870F8F068C329DF8F4B3C9A1 /* TYMediaPlayer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TYMediaPlayer/TYMediaPlayer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TYMediaPlayer/TYMediaPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TYMediaPlayer/TYMediaPlayer.modulemap";
+				PRODUCT_MODULE_NAME = TYMediaPlayer;
+				PRODUCT_NAME = TYMediaPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE96E2641802B16DA24658E110CDC8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3991AB99A7672C750DACFB228AC17081 /* RangersAppLog.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RangersAppLog";
+				IBSC_MODULE = RangersAppLog;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/ResourceBundle-RangersAppLog-RangersAppLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C66BB8A9B42E63447A8730CDCA47E476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6326C8575F13588FB715408C5FE53783 /* RangersAppLog.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RangersAppLog";
+				IBSC_MODULE = RangersAppLog;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/ResourceBundle-RangersAppLog-RangersAppLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EE76681F7D96161F3206BEDACB2CAD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6326C8575F13588FB715408C5FE53783 /* RangersAppLog.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/RangersAppLog/RangersAppLog-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/RangersAppLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RangersAppLog/RangersAppLog.modulemap";
+				PRODUCT_MODULE_NAME = RangersAppLog;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB02263999FCDDD53CA5B130ED15DBC /* Build configuration list for PBXNativeTarget "RangersAppLog-RangersAppLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE96E2641802B16DA24658E110CDC8DF /* Debug */,
+				C66BB8A9B42E63447A8730CDCA47E476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D076D1D191FB7082AF1896D695764BD /* Build configuration list for PBXNativeTarget "Pods-TYMediaPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD7BE98533B8E84C533CE926184B916 /* Debug */,
+				7EA2FEA07880493CE3E07D7AF11497A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7562D3BF8F0B200968FAFC853680C2FF /* Build configuration list for PBXNativeTarget "TTSDKFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3744AC5046B546EB14DD8743FAEEA842 /* Debug */,
+				1906A11CF37FEB4E2435BEB50DDDD097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BA181BB338CCEF0EDB83735BBC8CD4 /* Build configuration list for PBXNativeTarget "RangersAppLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ED6CA41A2F00E0BD46154E2D776416 /* Debug */,
+				EE76681F7D96161F3206BEDACB2CAD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28F634FC021386534BFE8EB4F4AFCB7 /* Build configuration list for PBXNativeTarget "TYMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8176E4C98A5F9FE6F5D12E3BAEF8871 /* Debug */,
+				8A8E1ABB7A3177C6D4B18B90ADE0F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

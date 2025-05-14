@@ -1,0 +1,5 @@
+framework module TTSDKVCN {
+  umbrella header "TTSDKVCN.h"
+  export *
+  module * { export * }
+}
