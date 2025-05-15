@@ -12,4 +12,4 @@ source 'https://github.com/YannChee/TYMediaPlayer.git'
 ```ruby
   pod 'TYMediaPlayer',:git => "https://github.com/YannChee/TYMediaPlayer.git"
 ```
-## Usage
+
