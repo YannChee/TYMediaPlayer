@@ -25,7 +25,10 @@ class TYSDKPlayerManager: NSObject,FPPlayerMediaPlayback {
     
     // MARK: - FPPlayerMediaPlayback协议属性
     var view: UIView {
-        engine!.playerView
+        if let engine = engine {
+            return engine.playerView
+        }
+        return UIView()
     }
     
     
@@ -310,6 +313,11 @@ extension TYSDKPlayerManager {
             // engine实例置为空
             engine = nil;
         }
+        
+        guard vidPlayInfoModel.isValid == true else {
+            return
+        }
+        
         isPreparedToPlay = true
         
         // 初始化播放器实例并以属性持有
